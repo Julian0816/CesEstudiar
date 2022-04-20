@@ -43,7 +43,7 @@ namespace BasesDeDatos
                         Console.WriteLine("°         14. tema14: Copias de seguridad de restauracion     °");
                         Console.WriteLine("°         15. Salir                                           °");
                         Console.WriteLine("°-------------------------------------------------------------°");
-                        Console.WriteLine("ingresa el tema a estudiar");
+                        Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu = Convert.ToInt32(Console.ReadLine());  
                         switch (submenu)
                         {
