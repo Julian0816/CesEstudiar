@@ -26,23 +26,23 @@ namespace BasesDeDatos
                 switch (opc)
                 {
                     case 1:
-                        Console.WriteLine("°-----------------------------°");
-                        Console.WriteLine("°         1. tema1            °");
-                        Console.WriteLine("°         2. tema2            °");
-                        Console.WriteLine("°         3. tema3            °");
-                        Console.WriteLine("°         4. tema4            °");
-                        Console.WriteLine("°         5. tema5            °");
-                        Console.WriteLine("°         6. tema6            °");
-                        Console.WriteLine("°         7. tema7            °");
-                        Console.WriteLine("°         8. tema8            °");
-                        Console.WriteLine("°         9. tema9            °");
-                        Console.WriteLine("°         10. tema10          °");
-                        Console.WriteLine("°         11. tema11          °");
-                        Console.WriteLine("°         12. tema12          °");
-                        Console.WriteLine("°         13. tema13          °");
-                        Console.WriteLine("°         14. tema14          °");
-                        Console.WriteLine("°         15. Salir           °");
-                        Console.WriteLine("°-----------------------------°");
+                        Console.WriteLine("°-------------------------------------------------------------°");
+                        Console.WriteLine("°         1. tema1: Sistema de informacion                    °");
+                        Console.WriteLine("°         2. tema2: Sistema gestor de base de datos           °");
+                        Console.WriteLine("°         3. tema3: Tipos de bases de datos                   °");
+                        Console.WriteLine("°         4. tema4: Arquitectura de una aplicacion            °");
+                        Console.WriteLine("°         5. tema5: Modelo entidad-relacion                   °");
+                        Console.WriteLine("°         6. tema6: Modelo relacional                         °");
+                        Console.WriteLine("°         7. tema7: Creacion de tablas SQL                    °");
+                        Console.WriteLine("°         8. tema8: Modificar informacion                     °");
+                        Console.WriteLine("°         9. tema9: Consulta de registros                     °");
+                        Console.WriteLine("°         10. tema10: MySQL                                   °");
+                        Console.WriteLine("°         11. tema11: PostgreSQL                              °");
+                        Console.WriteLine("°         12. tema12: Herencia                                °");
+                        Console.WriteLine("°         13. tema13: Recuperacion de fallos                  °");
+                        Console.WriteLine("°         14. tema14: Copias de seguridad de restauracion     °");
+                        Console.WriteLine("°         15. Salir                                           °");
+                        Console.WriteLine("°-------------------------------------------------------------°");
                         Console.WriteLine("ingresa el tema a estudiar");
                         submenu = Convert.ToInt32(Console.ReadLine());  
                         switch (submenu)
