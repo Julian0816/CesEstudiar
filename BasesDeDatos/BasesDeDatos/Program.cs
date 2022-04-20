@@ -22,7 +22,7 @@ namespace BasesDeDatos
                 Console.WriteLine("°-----------------------------°");
                 Console.WriteLine("Que unidad quieres estudiar");
                 opc =Convert.ToInt32(Console.ReadLine());
-               
+
                 switch (opc)
                 {
                     case 1:
@@ -44,7 +44,7 @@ namespace BasesDeDatos
                         Console.WriteLine("°         15. Salir                                           °");
                         Console.WriteLine("°-------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
-                        submenu = Convert.ToInt32(Console.ReadLine());  
+                        submenu = Convert.ToInt32(Console.ReadLine());
                         switch (submenu)
                         {
                             case 1:
@@ -110,63 +110,32 @@ namespace BasesDeDatos
                                 break;
                         }
                         break;
-
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+                    case 2:
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°         1. tema1:        °");
+                        Console.WriteLine("°         2. tema2:        °");
+                        Console.WriteLine("°         3. tema3:        °");
+                        Console.WriteLine("°         4. tema4:        °");
+                        Console.WriteLine("°         5. tema5:        °");
+                        Console.WriteLine("°         6. tema6:        °");
+                        Console.WriteLine("°         7. tema7:        °");
+                        Console.WriteLine("°         8. tema8:        °");
+                        Console.WriteLine("°         9. tema9:        °");
+                        Console.WriteLine("°         10. tema10:      °");
+                        Console.WriteLine("°         11. tema11:      °");
+                        Console.WriteLine("°         12. tema12:      °");
+                        Console.WriteLine("°         13. tema13:      °");
+                        Console.WriteLine("°         14. tema14:      °");
+                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
+                        submenu = Convert.ToInt32(Console.ReadLine());
+                        break;
                     
                 }
-
+                
             } while (opc!=15);
-           
-           
-
-            
-
-            
-
-            //Temario Tema3 = new Temario();
-            //Tema3.LlamarQuestionario3();
-
-            //Temario Tema4 = new Temario();
-            //Tema4.LlamarQuestionario4();
-
-            //Temario Temma5 = new Temario();
-            //Temma5.LlamarQuestionario5();
-
-            //Temario Tema6 = new Temario();
-            //Tema6.LlamarQuestionario6();
-
-            //Temario Tema7 = new Temario();
-            //Tema7.LlamarQuestionario7();
-
-            //Temario Tema8 = new Temario();
-            //Tema8.LlamarQuestionario8();
-
-            //Temario Tema9 = new Temario();
-            //Tema9.LlamarQuestionario9();
-
-            //Temario Tema10 = new Temario();
-            //Tema10.LlamarQuestionario10();
-
-            //Temario Tema11 = new Temario();
-            //Tema11.LlamarQuestionario11();
-
-            //Temario Tema12 = new Temario();
-            //Tema12.LlamarQuestionario12();
-
-            //Temario Tema13 = new Temario();
-            //Tema13.LlamarQuestionario13();
-
-            //Temario Tema14 = new Temario();
-            //Tema14.LlamarQuestionario14();
-
         }
     }
 }
