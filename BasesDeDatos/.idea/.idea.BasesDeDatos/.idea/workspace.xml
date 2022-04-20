@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43a6185-a6c1-47d5-a3a1-16c6525aeaa0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BasesDeDatos/TemaProgramacion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasesDeDatos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasesDeDatos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasesDeDatos/Temario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/Temario.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasesDeDatos/programacion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/programacion.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,8 @@
       <updated>1650315785371</updated>
       <workItem from="1650315803411" duration="16000" />
       <workItem from="1650470743441" duration="5539000" />
-      <workItem from="1650490463602" duration="4077000" />
+      <workItem from="1650490463602" duration="5014000" />
+      <workItem from="1650497706337" duration="395000" />
     </task>
     <servers />
   </component>

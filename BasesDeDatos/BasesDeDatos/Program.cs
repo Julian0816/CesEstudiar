@@ -132,15 +132,15 @@ namespace BasesDeDatos
                         Console.WriteLine("°--------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu2 = Convert.ToInt32(Console.ReadLine());
-                        /*switch (submenu2)
+                        switch (submenu2)
                         {
                             case 1:
-                                programacion Tema1 = new programacion();
+                                TemaProgramacion Tema1 = new TemaProgramacion();
                                 Tema1.LlamarQuestionario1();
                                 break;
                             default:
                                 break;
-                        }*/
+                        }
                         break;
                     
                 }
