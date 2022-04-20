@@ -14,6 +14,7 @@ namespace BasesDeDatos
             //o tres.. o todos los temas a la vez?
             int opc = 0;
             int submenu = 0;
+            int submenu2 = 0;
             do
             {
                 Console.WriteLine("°-----------------------------°");
@@ -130,7 +131,16 @@ namespace BasesDeDatos
                         Console.WriteLine("°         15. Salir        °");
                         Console.WriteLine("°--------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
-                        submenu = Convert.ToInt32(Console.ReadLine());
+                        submenu2 = Convert.ToInt32(Console.ReadLine());
+                        /*switch (submenu2)
+                        {
+                            case 1:
+                                programacion Tema1 = new programacion();
+                                Tema1.LlamarQuestionario1();
+                                break;
+                            default:
+                                break;
+                        }*/
                         break;
                     
                 }
