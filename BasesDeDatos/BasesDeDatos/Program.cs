@@ -13,8 +13,8 @@ namespace BasesDeDatos
             //Ahora mismo solo puedo usar un tema a la vez, la pregunta es como puedo cambiar de usar un solo tema, o dos a la vez
             //o tres.. o todos los temas a la vez?
 
-            //Temario Tema1 = new Temario();
-            //Tema1.LlamarQuestionario1();
+            Temario Tema1 = new Temario();
+            Tema1.LlamarQuestionario1();
 
             //Temario Tema2 = new Temario();
             //Tema2.LlamarQuestionario2();
