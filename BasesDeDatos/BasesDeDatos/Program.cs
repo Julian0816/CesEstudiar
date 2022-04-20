@@ -20,7 +20,7 @@ namespace BasesDeDatos
                 Console.WriteLine("°         1. Bases de datos   °");
                 Console.WriteLine("°         2. Programacion     °");
                 Console.WriteLine("°-----------------------------°");
-                Console.WriteLine("Que unidad quiere estudiar");
+                Console.WriteLine("Que unidad quieres estudiar");
                 opc =Convert.ToInt32(Console.ReadLine());
                
                 switch (opc)
