@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "46UMWI6swmZslkWNsLOa1MZnZIxWC3dfjZXTSg27ML6ifVGBalxpZ+W18ZQJef5sGbubC3YohVBvKaNPAjdMZQ==",
+  "dgSpecHash": "8m7iRi7y7eEwKKLM3Q7tHv/Q1iR+xop7i+4EAaydqgfmhpRPGAsDtohpAt/wWtUxy+E/H4y+hzZO8/1PN/ZWUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\Downloads\\BasesDeDatos\\BasesDeDatos\\BasesDeDatos\\BasesDeDatos.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\julia\\OneDrive\\Desktop\\Estudiar\\BasesDeDatos\\BasesDeDatos\\BasesDeDatos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
   "logs": []
 }

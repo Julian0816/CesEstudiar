@@ -25,3 +25,17 @@ C:\Users\julia\Downloads\BasesDeDatos\BasesDeDatos\BasesDeDatos\obj\Debug\netcor
 C:\Users\julia\Downloads\BasesDeDatos\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.dll
 C:\Users\julia\Downloads\BasesDeDatos\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.pdb
 C:\Users\julia\Downloads\BasesDeDatos\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.genruntimeconfig.cache
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\bin\Debug\netcoreapp3.1\BasesDeDatos.exe
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\bin\Debug\netcoreapp3.1\BasesDeDatos.deps.json
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\bin\Debug\netcoreapp3.1\BasesDeDatos.runtimeconfig.json
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\bin\Debug\netcoreapp3.1\BasesDeDatos.runtimeconfig.dev.json
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\bin\Debug\netcoreapp3.1\BasesDeDatos.dll
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\bin\Debug\netcoreapp3.1\BasesDeDatos.pdb
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.csproj.AssemblyReference.cache
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.AssemblyInfo.cs
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.dll
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.pdb
+C:\Users\julia\OneDrive\Desktop\Estudiar\BasesDeDatos\BasesDeDatos\obj\Debug\netcoreapp3.1\BasesDeDatos.genruntimeconfig.cache

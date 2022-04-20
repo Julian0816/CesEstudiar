@@ -34,9 +34,11 @@ namespace BasesDeDatos
             {
                 LlamarQuestionario1();
             }
-            else
+            else if(respuesta =="n")
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
+               
+
             }
         }
 
