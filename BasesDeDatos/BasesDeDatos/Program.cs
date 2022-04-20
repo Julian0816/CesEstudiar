@@ -52,71 +52,75 @@ namespace BasesDeDatos
                                 Tema1.LlamarQuestionario1();
                                 break;
                             case 2:
-                                
+                                Temario Tema2 = new Temario();
+                                Tema2.LlamarQuestionario2();
+                                break;
+                            case 3:
+                                Temario Tema3 = new Temario();
+                                Tema3.LlamarQuestionario3();
+                                break;
+                            case 4:
+                                Temario Tema4 = new Temario();
+                                Tema4.LlamarQuestionario4();
+                                break;
+                            case 5:
+                                Temario Tema5 = new Temario();
+                                Tema5.LlamarQuestionario5();
+                                break;
+                            case 6:
+                                Temario Tema6 = new Temario();
+                                Tema6.LlamarQuestionario6();
+                                break;
+                            case 7:
+                                Temario Tema7 = new Temario();
+                                Tema7.LlamarQuestionario7();
+                                break;
+                            case 8:
+                                Temario Tema8 = new Temario();
+                                Tema8.LlamarQuestionario8();
+                                break;
+                            case 9:
+                                Temario Tema9 = new Temario();
+                                Tema9.LlamarQuestionario9();
+                                break;
+                            case 10:
+                                Temario Tema10 = new Temario();
+                                Tema10.LlamarQuestionario10();
+                                break;
+                            case 11:
+                                Temario Tema11 = new Temario();
+                                Tema11.LlamarQuestionario11();
+                                break;
+                            case 12:
+                                Temario Tema12 = new Temario();
+                                Tema12.LlamarQuestionario12();
+                                break;
+                            case 13:
+                                Temario Tema13 = new Temario();
+                                Tema13.LlamarQuestionario13();
+                                break;
+                            case 14:
+                                Temario Tema14 = new Temario();
+                                Tema14.LlamarQuestionario14();
+                                break;
+                            case 15:
+                                Console.WriteLine("finalizo el estudio");
                                 break;
                             default:
-                                Console.WriteLine(" la opcion no es valida");
-                                break;     
+                                break;
                         }
-   
                         break;
-                    case 2:
-                        Temario Tema2 = new Temario();
-                        Tema2.LlamarQuestionario2();
-                        break;
-                    case 3:
-                        Temario Tema3 = new Temario();
-                        Tema3.LlamarQuestionario3();
-                        break;
-                    case 4:
-                        Temario Tema4 = new Temario();
-                        Tema4.LlamarQuestionario4();
-                        break;
-                    case 5:
-                        Temario Tema5 = new Temario();
-                        Tema5.LlamarQuestionario5();
-                        break;
-                    case 6:
-                        Temario Tema6 = new Temario();
-                        Tema6.LlamarQuestionario6();
-                        break;
-                    case 7:
-                        Temario Tema7 = new Temario();
-                        Tema7.LlamarQuestionario7();
-                        break;
-                    case 8:
-                        Temario Tema8 = new Temario();
-                        Tema8.LlamarQuestionario8();
-                        break;
-                    case 9:
-                        Temario Tema9 = new Temario();
-                        Tema9.LlamarQuestionario9();
-                        break;
-                    case 10:
-                        Temario Tema10 = new Temario();
-                        Tema10.LlamarQuestionario10();
-                        break;
-                    case 11:
-                        Temario Tema11 = new Temario();
-                        Tema11.LlamarQuestionario11();
-                        break;
-                    case 12:
-                        Temario Tema12 = new Temario();
-                        Tema12.LlamarQuestionario12();
-                        break;
-                    case 13:
-                        Temario Tema13 = new Temario();
-                        Tema13.LlamarQuestionario13();
-                        break;
-                    case 14:
-                        Temario Tema14 = new Temario();
-                        Tema14.LlamarQuestionario14();
-                        break;
-                    case 15:
-                        Console.WriteLine("finalizo el estudio");
-                        break;
-                    default:
-                        break;
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                 }
 
             } while (opc!=15);
