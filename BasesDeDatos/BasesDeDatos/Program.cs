@@ -21,11 +21,15 @@ namespace BasesDeDatos
             int submenu6 = 0;
             do
             {
-                Console.WriteLine("°-----------------------------°");
-                Console.WriteLine("°         1. Bases de datos   °");
-                Console.WriteLine("°         2. Programacion     °");
-                Console.WriteLine("°-----------------------------°");
-                Console.WriteLine("Que unidad quieres estudiar");
+                Console.WriteLine("°---------------------------------------°");
+                Console.WriteLine("°         1. Bases de datos             °");
+                Console.WriteLine("°         2. Programacion               °");
+                Console.WriteLine("°         3. Lenguaje de Marcas         °");
+                Console.WriteLine("°         4. Entornos de Desarrolos     °");
+                Console.WriteLine("°         5. Sistemsa Informaticos      °");
+                Console.WriteLine("°         6. FOL                        °");
+                Console.WriteLine("°---------------------------------------°");
+                Console.WriteLine("Que modulo quieres estudiar");
                 opc =Convert.ToInt32(Console.ReadLine());
 
                 switch (opc)
