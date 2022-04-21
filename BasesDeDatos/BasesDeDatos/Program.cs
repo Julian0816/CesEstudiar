@@ -50,7 +50,7 @@ namespace BasesDeDatos
                         Console.WriteLine("°         12. tema12: Herencia                                °");
                         Console.WriteLine("°         13. tema13: Recuperacion de fallos                  °");
                         Console.WriteLine("°         14. tema14: Copias de seguridad de restauracion     °");
-                        Console.WriteLine("°         15. Salir                                           °");
+                        Console.WriteLine("°         30. Salir                                           °");
                         Console.WriteLine("°-------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu = Convert.ToInt32(Console.ReadLine());
@@ -121,25 +121,25 @@ namespace BasesDeDatos
                         break;
                     
                     case 2:
-                        Console.WriteLine("°----------------------------------------------------------------------------°");
-                        Console.WriteLine("°         1. tema1: Introducción a la programación                           °");
-                        Console.WriteLine("°         2. tema2: Estructuras de control de flujo: condicion               °");
-                        Console.WriteLine("°         3. tema3: Estructuras de control de flujo: cíclicas                °");
-                        Console.WriteLine("°         4. tema4: Métodos y funciones                                      °");
-                        Console.WriteLine("°         5. tema5: Diseño en programación                                   °");
-                        Console.WriteLine("°         6. tema6: Estructura de datos complejas: arrays                    °");
-                        Console.WriteLine("°         7. tema7: Programación orientada a objetos                         °");
-                        Console.WriteLine("°         8. tema8: Estructuras de datos complejas: matrices                 °");
-                        Console.WriteLine("°         9. tema9: Esctructuras de datos complejas: colecciones             °");
-                        Console.WriteLine("°         10. tema10: formularios y otros elementos de interfaz de usuario   °");
-                        Console.WriteLine("°         11. tema11: Estructuras de datos complejas: agrupadores            °");
-                        Console.WriteLine("°         12. tema12: Eventos y listeners                                    °");
-                        Console.WriteLine("°         13. tema13: Colisiones                                             °");
-                        Console.WriteLine("°         14. tema14: Corrutinas                                             °");
-                        Console.WriteLine("°         15. tema15: Entrada y salida de datos                              °");
-                        Console.WriteLine("°         15. tema16: Informatica grafica                                    °");
-                        Console.WriteLine("°         30. Salir                                                          °");
-                        Console.WriteLine("°----------------------------------------------------------------------------°");
+                        Console.WriteLine("°------------------------------------------------------------------------°");
+                        Console.WriteLine("°     1. tema1: Introducción a la programación                           °");
+                        Console.WriteLine("°     2. tema2: Estructuras de control de flujo: condicion               °");
+                        Console.WriteLine("°     3. tema3: Estructuras de control de flujo: cíclicas                °");
+                        Console.WriteLine("°     4. tema4: Métodos y funciones                                      °");
+                        Console.WriteLine("°     5. tema5: Diseño en programación                                   °");
+                        Console.WriteLine("°     6. tema6: Estructura de datos complejas: arrays                    °");
+                        Console.WriteLine("°     7. tema7: Programación orientada a objetos                         °");
+                        Console.WriteLine("°     8. tema8: Estructuras de datos complejas: matrices                 °");
+                        Console.WriteLine("°     9. tema9: Esctructuras de datos complejas: colecciones             °");
+                        Console.WriteLine("°     10. tema10: formularios y otros elementos de interfaz de usuario   °");
+                        Console.WriteLine("°     11. tema11: Estructuras de datos complejas: agrupadores            °");
+                        Console.WriteLine("°     12. tema12: Eventos y listeners                                    °");
+                        Console.WriteLine("°     13. tema13: Colisiones                                             °");
+                        Console.WriteLine("°     14. tema14: Corrutinas                                             °");
+                        Console.WriteLine("°     15. tema15: Entrada y salida de datos                              °");
+                        Console.WriteLine("°     16. tema16: Informatica grafica                                    °");
+                        Console.WriteLine("°     30. Salir                                                          °");
+                        Console.WriteLine("°------------------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu2 = Convert.ToInt32(Console.ReadLine());
                         switch (submenu2)
@@ -154,23 +154,19 @@ namespace BasesDeDatos
                         break;
                     
                     case 3:
-                        Console.WriteLine("°--------------------------°");
-                        Console.WriteLine("°         1. tema1:        °");
-                        Console.WriteLine("°         2. tema2:        °");
-                        Console.WriteLine("°         3. tema3:        °");
-                        Console.WriteLine("°         4. tema4:        °");
-                        Console.WriteLine("°         5. tema5:        °");
-                        Console.WriteLine("°         6. tema6:        °");
-                        Console.WriteLine("°         7. tema7:        °");
-                        Console.WriteLine("°         8. tema8:        °");
-                        Console.WriteLine("°         9. tema9:        °");
-                        Console.WriteLine("°         10. tema10:      °");
-                        Console.WriteLine("°         11. tema11:      °");
-                        Console.WriteLine("°         12. tema12:      °");
-                        Console.WriteLine("°         13. tema13:      °");
-                        Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         30. Salir        °");
-                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°------------------------------------------------------------------------------°");
+                        Console.WriteLine("° 1. tema1: Introducción a los lenguajes de marcas HTML                        °");
+                        Console.WriteLine("° 2. tema2: Lenguaje de muestra de contenidos e informacion web parte II html  °");
+                        Console.WriteLine("° 3. tema3: Lenguaje de muestra de contenidos e informacion web parte II html  °");
+                        Console.WriteLine("° 4. tema4: Lenguaje de estilos CSS                                            °");
+                        Console.WriteLine("° 5. tema5: Plantillas de información web y estilos                            °");
+                        Console.WriteLine("° 6. tema6: Introducción a POO Javascript en webs                              °");
+                        Console.WriteLine("° 7. tema7: Scripts en webs Javascript                                         °");
+                        Console.WriteLine("° 8. tema8: Lenguaje de almacenamiento xml                                     °");
+                        Console.WriteLine("° 9. tema9: Lenguaje de almacenamiento xml                                     °");
+                        Console.WriteLine("° 10. tema10: Introducción a SGE Crm Microsoft Dynamics                        °");
+                        Console.WriteLine("° 30. Salir                                                                    °");
+                        Console.WriteLine("°------------------------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu3 = Convert.ToInt32(Console.ReadLine());
                         switch (submenu3)
@@ -183,24 +179,17 @@ namespace BasesDeDatos
                                 break;
                         }
                         break;
+                    
                     case 4:
-                        Console.WriteLine("°--------------------------°");
-                        Console.WriteLine("°         1. tema1:        °");
-                        Console.WriteLine("°         2. tema2:        °");
-                        Console.WriteLine("°         3. tema3:        °");
-                        Console.WriteLine("°         4. tema4:        °");
-                        Console.WriteLine("°         5. tema5:        °");
-                        Console.WriteLine("°         6. tema6:        °");
-                        Console.WriteLine("°         7. tema7:        °");
-                        Console.WriteLine("°         8. tema8:        °");
-                        Console.WriteLine("°         9. tema9:        °");
-                        Console.WriteLine("°         10. tema10:      °");
-                        Console.WriteLine("°         11. tema11:      °");
-                        Console.WriteLine("°         12. tema12:      °");
-                        Console.WriteLine("°         13. tema13:      °");
-                        Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         30. Salir        °");
-                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°--------------------------------------------------------------------°");
+                        Console.WriteLine("°         1. tema1: Elementos del desarrolo software                 °");
+                        Console.WriteLine("°         2. tema2: Entornos integrados de desarrollo                °");
+                        Console.WriteLine("°         3. tema3: Diseno y realizacion de pruebas                  °");
+                        Console.WriteLine("°         4. tema4: Optimizacion y documentacion                     °");
+                        Console.WriteLine("°         5. tema5: Elaboracion de diagramas de clase                °");
+                        Console.WriteLine("°         6. tema6: Elaboracion de diagramas de comportamiento       °");
+                        Console.WriteLine("°         30. Salir                                                  °");
+                        Console.WriteLine("°--------------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu4 = Convert.ToInt32(Console.ReadLine());
                         switch (submenu4)
@@ -213,24 +202,32 @@ namespace BasesDeDatos
                                 break;
                         }
                         break;
+                    
                     case 5:
-                        Console.WriteLine("°--------------------------°");
-                        Console.WriteLine("°         1. tema1:        °");
-                        Console.WriteLine("°         2. tema2:        °");
-                        Console.WriteLine("°         3. tema3:        °");
-                        Console.WriteLine("°         4. tema4:        °");
-                        Console.WriteLine("°         5. tema5:        °");
-                        Console.WriteLine("°         6. tema6:        °");
-                        Console.WriteLine("°         7. tema7:        °");
-                        Console.WriteLine("°         8. tema8:        °");
-                        Console.WriteLine("°         9. tema9:        °");
-                        Console.WriteLine("°         10. tema10:      °");
-                        Console.WriteLine("°         11. tema11:      °");
-                        Console.WriteLine("°         12. tema12:      °");
-                        Console.WriteLine("°         13. tema13:      °");
-                        Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         30. Salir        °");
-                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°---------------------------------------------------------------------------------°");
+                        Console.WriteLine("° 1. tema1: Elementos, estructura y funciones generales de un sistema operativo I °");
+                        Console.WriteLine("° 2. tema2: Sistemas de comunicaciones y redes                                    °");
+                        Console.WriteLine("° 3. tema3: Explotación de sistemas microinformáticos                             °");
+                        Console.WriteLine("° 4. tema4: Sistemas de comunicaciones y redes                                    °");
+                        Console.WriteLine("° 5. tema5: Instalación de sistemas operativos libres y propietarios I            °");
+                        Console.WriteLine("° 6. tema6: Instalación de sistemas operativos libres y propietarios II           °");
+                        Console.WriteLine("° 7. tema7: Instalación de sistemas operativos iv                                 °");
+                        Console.WriteLine("° 8. tema8: Instalación de sistemas operativos v                                  °");
+                        Console.WriteLine("° 9. tema9: Instalación de sistemas operativos vi                                 °");
+                        Console.WriteLine("° 10. tema10: Instalación de sistemas operativos vii                              °");
+                        Console.WriteLine("° 11. tema11: Instalación de sistemas operativos viiii                            °");
+                        Console.WriteLine("° 12. tema12: Gestión de la información i                                         °");
+                        Console.WriteLine("° 13. tema13: Gestión de la información ii                                        °");
+                        Console.WriteLine("° 14. tema14: Gestión de la información iii                                       °");
+                        Console.WriteLine("° 15. tema15: Configuración de sistemas operativos i                              °");
+                        Console.WriteLine("° 16. tema16: Configuración de sistemas operativos ii                             °");
+                        Console.WriteLine("° 17. tema17: Configuración de sistemas operativos iii                            °");
+                        Console.WriteLine("° 18. tema18: Conexión de sistemas en red i                                       °");
+                        Console.WriteLine("° 19. tema19: Conexión de sistemas en red ii                                      °");
+                        Console.WriteLine("° 20. tema20: Conexión de sistemas en red iii                                     °");
+                        Console.WriteLine("° 21. tema21: Gestión de recursos de una red iv                                   °");
+                        Console.WriteLine("° 30. Salir                                                                       °");
+                        Console.WriteLine("°---------------------------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu5 = Convert.ToInt32(Console.ReadLine());
                         switch (submenu5)
@@ -243,24 +240,27 @@ namespace BasesDeDatos
                                 break;
                         } 
                         break;
+                    
                     case 6:
-                        Console.WriteLine("°--------------------------°");
-                        Console.WriteLine("°         1. tema1:        °");
-                        Console.WriteLine("°         2. tema2:        °");
-                        Console.WriteLine("°         3. tema3:        °");
-                        Console.WriteLine("°         4. tema4:        °");
-                        Console.WriteLine("°         5. tema5:        °");
-                        Console.WriteLine("°         6. tema6:        °");
-                        Console.WriteLine("°         7. tema7:        °");
-                        Console.WriteLine("°         8. tema8:        °");
-                        Console.WriteLine("°         9. tema9:        °");
-                        Console.WriteLine("°         10. tema10:      °");
-                        Console.WriteLine("°         11. tema11:      °");
-                        Console.WriteLine("°         12. tema12:      °");
-                        Console.WriteLine("°         13. tema13:      °");
-                        Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         30. Salir        °");
-                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°------------------------------------------------------------------------------------------°");
+                        Console.WriteLine("° 1. tema1: El derecho del trabajo                                                         °");
+                        Console.WriteLine("° 2. tema2: Contratos de trabajo                                                           °");
+                        Console.WriteLine("° 3. tema3: Modalidades contractuales                                                      °");
+                        Console.WriteLine("° 4. tema4: Tiempo de trabajo                                                              °");
+                        Console.WriteLine("° 5. tema5: Modificación, suspensión y extinción del contrato de trabajo: causas y efectos °");
+                        Console.WriteLine("° 6. tema6: Retribuciones salariales                                                       °");
+                        Console.WriteLine("° 7. tema7: Representación de los trabajadores: unitaria y sindical                        °");
+                        Console.WriteLine("° 8. tema8: Seguridad Social                                                               °");
+                        Console.WriteLine("° 9. tema9: Seguridad y salud en el trabajo: conceptos básicos                             °");
+                        Console.WriteLine("° 10. tema10: Riesgos profesionales: riesgos generales y riesgos específicos               °");
+                        Console.WriteLine("° 11. tema11: Aplicación de medidas de prevención y protección en la empresa               °");
+                        Console.WriteLine("° 12. tema12: Planificación de la prevención de riesgos en la empresa                      °");
+                        Console.WriteLine("° 13. tema13: Primeros auxilios                                                            °");
+                        Console.WriteLine("° 14. tema14: Orientación profesional y búsqueda activa de empleo                          °");
+                        Console.WriteLine("° 15. tema15: Grupos y equipos de trabajo                                                  °");
+                        Console.WriteLine("° 16. tema16: Gestión del conflicto                                                        °");
+                        Console.WriteLine("° 30. Salir                                                                                °");
+                        Console.WriteLine("°------------------------------------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu6 = Convert.ToInt32(Console.ReadLine());
                         switch (submenu6)
