@@ -15,6 +15,10 @@ namespace BasesDeDatos
             int opc = 0;
             int submenu = 0;
             int submenu2 = 0;
+            int submenu3 = 0;
+            int submenu4 = 0;
+            int submenu5 = 0;
+            int submenu6 = 0;
             do
             {
                 Console.WriteLine("°-----------------------------°");
@@ -143,6 +147,126 @@ namespace BasesDeDatos
                         }
                         break;
                     
+                    case 3:
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°         1. tema1:        °");
+                        Console.WriteLine("°         2. tema2:        °");
+                        Console.WriteLine("°         3. tema3:        °");
+                        Console.WriteLine("°         4. tema4:        °");
+                        Console.WriteLine("°         5. tema5:        °");
+                        Console.WriteLine("°         6. tema6:        °");
+                        Console.WriteLine("°         7. tema7:        °");
+                        Console.WriteLine("°         8. tema8:        °");
+                        Console.WriteLine("°         9. tema9:        °");
+                        Console.WriteLine("°         10. tema10:      °");
+                        Console.WriteLine("°         11. tema11:      °");
+                        Console.WriteLine("°         12. tema12:      °");
+                        Console.WriteLine("°         13. tema13:      °");
+                        Console.WriteLine("°         14. tema14:      °");
+                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
+                        submenu3 = Convert.ToInt32(Console.ReadLine());
+                        switch (submenu3)
+                        {
+                            case 1:
+                                TemaLenguajeDeMarcas Tema1 = new TemaLenguajeDeMarcas();
+                                Tema1.LlamarQuestionario1();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+                    case 4:
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°         1. tema1:        °");
+                        Console.WriteLine("°         2. tema2:        °");
+                        Console.WriteLine("°         3. tema3:        °");
+                        Console.WriteLine("°         4. tema4:        °");
+                        Console.WriteLine("°         5. tema5:        °");
+                        Console.WriteLine("°         6. tema6:        °");
+                        Console.WriteLine("°         7. tema7:        °");
+                        Console.WriteLine("°         8. tema8:        °");
+                        Console.WriteLine("°         9. tema9:        °");
+                        Console.WriteLine("°         10. tema10:      °");
+                        Console.WriteLine("°         11. tema11:      °");
+                        Console.WriteLine("°         12. tema12:      °");
+                        Console.WriteLine("°         13. tema13:      °");
+                        Console.WriteLine("°         14. tema14:      °");
+                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
+                        submenu4 = Convert.ToInt32(Console.ReadLine());
+                        switch (submenu4)
+                        {
+                            case 1:
+                                TemaEntornoDeDesarrollos Tema1 = new TemaEntornoDeDesarrollos();
+                                Tema1.LlamarQuestionario1();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+                    case 5:
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°         1. tema1:        °");
+                        Console.WriteLine("°         2. tema2:        °");
+                        Console.WriteLine("°         3. tema3:        °");
+                        Console.WriteLine("°         4. tema4:        °");
+                        Console.WriteLine("°         5. tema5:        °");
+                        Console.WriteLine("°         6. tema6:        °");
+                        Console.WriteLine("°         7. tema7:        °");
+                        Console.WriteLine("°         8. tema8:        °");
+                        Console.WriteLine("°         9. tema9:        °");
+                        Console.WriteLine("°         10. tema10:      °");
+                        Console.WriteLine("°         11. tema11:      °");
+                        Console.WriteLine("°         12. tema12:      °");
+                        Console.WriteLine("°         13. tema13:      °");
+                        Console.WriteLine("°         14. tema14:      °");
+                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
+                        submenu5 = Convert.ToInt32(Console.ReadLine());
+                        switch (submenu5)
+                        {
+                            case 1:
+                                TemaSistemasInformaticos Tema1 = new TemaSistemasInformaticos();
+                                Tema1.LlamarQuestionario1();
+                                break;
+                            default:
+                                break;
+                        } 
+                        break;
+                    case 6:
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°         1. tema1:        °");
+                        Console.WriteLine("°         2. tema2:        °");
+                        Console.WriteLine("°         3. tema3:        °");
+                        Console.WriteLine("°         4. tema4:        °");
+                        Console.WriteLine("°         5. tema5:        °");
+                        Console.WriteLine("°         6. tema6:        °");
+                        Console.WriteLine("°         7. tema7:        °");
+                        Console.WriteLine("°         8. tema8:        °");
+                        Console.WriteLine("°         9. tema9:        °");
+                        Console.WriteLine("°         10. tema10:      °");
+                        Console.WriteLine("°         11. tema11:      °");
+                        Console.WriteLine("°         12. tema12:      °");
+                        Console.WriteLine("°         13. tema13:      °");
+                        Console.WriteLine("°         14. tema14:      °");
+                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
+                        submenu6 = Convert.ToInt32(Console.ReadLine());
+                        switch (submenu6)
+                        {
+                            case 1:
+                                TemaFOL Tema1 = new TemaFOL();
+                                Tema1.LlamarQuestionario1();
+                                break;
+                            default:
+                                break;
+                        } 
+                        break;
                 }
                 
             } while (opc!=15);
