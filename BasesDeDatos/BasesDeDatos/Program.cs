@@ -121,23 +121,25 @@ namespace BasesDeDatos
                         break;
                     
                     case 2:
-                        Console.WriteLine("°--------------------------°");
-                        Console.WriteLine("°         1. tema1:        °");
-                        Console.WriteLine("°         2. tema2:        °");
-                        Console.WriteLine("°         3. tema3:        °");
-                        Console.WriteLine("°         4. tema4:        °");
-                        Console.WriteLine("°         5. tema5:        °");
-                        Console.WriteLine("°         6. tema6:        °");
-                        Console.WriteLine("°         7. tema7:        °");
-                        Console.WriteLine("°         8. tema8:        °");
-                        Console.WriteLine("°         9. tema9:        °");
-                        Console.WriteLine("°         10. tema10:      °");
-                        Console.WriteLine("°         11. tema11:      °");
-                        Console.WriteLine("°         12. tema12:      °");
-                        Console.WriteLine("°         13. tema13:      °");
-                        Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         15. Salir        °");
-                        Console.WriteLine("°--------------------------°");
+                        Console.WriteLine("°----------------------------------------------------------------------------°");
+                        Console.WriteLine("°         1. tema1: Introducción a la programación                           °");
+                        Console.WriteLine("°         2. tema2: Estructuras de control de flujo: condicion               °");
+                        Console.WriteLine("°         3. tema3: Estructuras de control de flujo: cíclicas                °");
+                        Console.WriteLine("°         4. tema4: Métodos y funciones                                      °");
+                        Console.WriteLine("°         5. tema5: Diseño en programación                                   °");
+                        Console.WriteLine("°         6. tema6: Estructura de datos complejas: arrays                    °");
+                        Console.WriteLine("°         7. tema7: Programación orientada a objetos                         °");
+                        Console.WriteLine("°         8. tema8: Estructuras de datos complejas: matrices                 °");
+                        Console.WriteLine("°         9. tema9: Esctructuras de datos complejas: colecciones             °");
+                        Console.WriteLine("°         10. tema10: formularios y otros elementos de interfaz de usuario   °");
+                        Console.WriteLine("°         11. tema11: Estructuras de datos complejas: agrupadores            °");
+                        Console.WriteLine("°         12. tema12: Eventos y listeners                                    °");
+                        Console.WriteLine("°         13. tema13: Colisiones                                             °");
+                        Console.WriteLine("°         14. tema14: Corrutinas                                             °");
+                        Console.WriteLine("°         15. tema15: Entrada y salida de datos                              °");
+                        Console.WriteLine("°         15. tema16: Informatica grafica                                    °");
+                        Console.WriteLine("°         30. Salir                                                          °");
+                        Console.WriteLine("°----------------------------------------------------------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu2 = Convert.ToInt32(Console.ReadLine());
                         switch (submenu2)
@@ -167,7 +169,7 @@ namespace BasesDeDatos
                         Console.WriteLine("°         12. tema12:      °");
                         Console.WriteLine("°         13. tema13:      °");
                         Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°         30. Salir        °");
                         Console.WriteLine("°--------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu3 = Convert.ToInt32(Console.ReadLine());
@@ -197,7 +199,7 @@ namespace BasesDeDatos
                         Console.WriteLine("°         12. tema12:      °");
                         Console.WriteLine("°         13. tema13:      °");
                         Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°         30. Salir        °");
                         Console.WriteLine("°--------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu4 = Convert.ToInt32(Console.ReadLine());
@@ -227,7 +229,7 @@ namespace BasesDeDatos
                         Console.WriteLine("°         12. tema12:      °");
                         Console.WriteLine("°         13. tema13:      °");
                         Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°         30. Salir        °");
                         Console.WriteLine("°--------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu5 = Convert.ToInt32(Console.ReadLine());
@@ -257,7 +259,7 @@ namespace BasesDeDatos
                         Console.WriteLine("°         12. tema12:      °");
                         Console.WriteLine("°         13. tema13:      °");
                         Console.WriteLine("°         14. tema14:      °");
-                        Console.WriteLine("°         15. Salir        °");
+                        Console.WriteLine("°         30. Salir        °");
                         Console.WriteLine("°--------------------------°");
                         Console.WriteLine("Ingresa el numero del tema que quieres estudiar");
                         submenu6 = Convert.ToInt32(Console.ReadLine());
@@ -273,7 +275,7 @@ namespace BasesDeDatos
                         break;
                 }
                 
-            } while (opc!=15);
+            } while (opc!=30);
         }
     }
 }
