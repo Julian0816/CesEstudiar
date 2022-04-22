@@ -34,7 +34,7 @@ namespace BasesDeDatos
 
                 switch (opc)
                 {
-                    //Completo
+                    //Bases de Datos - Completo
                     case 1:
                         //Bases de Datos
                         Console.WriteLine("°-------------------------------------------------------------°");
@@ -122,7 +122,7 @@ namespace BasesDeDatos
                         }
                         break;
                     
-                    //Incompleto
+                    //Programacion - Incompleto
                     case 2:
                         //Programacion
                         Console.WriteLine("°------------------------------------------------------------------------°");
@@ -157,6 +157,7 @@ namespace BasesDeDatos
                         }
                         break;
                     
+                    //Lenguaje de Marcas - Completo
                     case 3:
                         //Lenguaje de Marcas
                         Console.WriteLine("°------------------------------------------------------------------------------°");
@@ -180,11 +181,48 @@ namespace BasesDeDatos
                                 TemaLenguajeDeMarcas Tema1 = new TemaLenguajeDeMarcas();
                                 Tema1.LlamarQuestionario1();
                                 break;
+                            case 2:
+                                TemaLenguajeDeMarcas Tema2 = new TemaLenguajeDeMarcas();
+                                Tema2.LlamarQuestionario2();
+                                break;
+                            case 3:
+                                TemaLenguajeDeMarcas Tema3 = new TemaLenguajeDeMarcas();
+                                Tema3.LlamarQuestionario3();
+                                break;
+                            case 4:
+                                TemaLenguajeDeMarcas Tema4 = new TemaLenguajeDeMarcas();
+                                Tema4.LlamarQuestionario4();
+                                break;
+                            case 5:
+                                TemaLenguajeDeMarcas Tema5 = new TemaLenguajeDeMarcas();
+                                Tema5.LlamarQuestionario5();
+                                break;
+                            case 6:
+                                TemaLenguajeDeMarcas Tema6 = new TemaLenguajeDeMarcas();
+                                Tema6.LlamarQuestionario6();
+                                break;
+                            case 7:
+                                TemaLenguajeDeMarcas Tema7 = new TemaLenguajeDeMarcas();
+                                Tema7.LlamarQuestionario7();
+                                break;
+                            case 8:
+                                TemaLenguajeDeMarcas Tema8 = new TemaLenguajeDeMarcas();
+                                Tema8.LlamarQuestionario8();
+                                break;
+                            case 9:
+                                TemaLenguajeDeMarcas Tema9 = new TemaLenguajeDeMarcas();
+                                Tema9.LlamarQuestionario9();
+                                break;
+                            case 10:
+                                TemaLenguajeDeMarcas Tema10 = new TemaLenguajeDeMarcas();
+                                Tema10.LlamarQuestionario10();
+                                break;
                             default:
                                 break;
                         }
                         break;
                     
+                    //Entornos de Desarrollo -
                     case 4:
                         //Entornos de desarrollos
                         Console.WriteLine("°--------------------------------------------------------------------°");
@@ -209,7 +247,7 @@ namespace BasesDeDatos
                         }
                         break;
                     
-                    //Completo
+                    //Sistemas Informaticos - Completo
                     case 5:
                         //Sistemas informaticos
                         Console.WriteLine("°---------------------------------------------------------------------------------°");
@@ -329,6 +367,7 @@ namespace BasesDeDatos
                         } 
                         break;
                     
+                    //FOL -
                     case 6:
                         //FOL
                         Console.WriteLine("°------------------------------------------------------------------------------------------°");
