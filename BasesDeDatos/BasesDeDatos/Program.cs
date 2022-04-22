@@ -35,6 +35,7 @@ namespace BasesDeDatos
                 switch (opc)
                 {
                     case 1:
+                        //Bases de Datos
                         Console.WriteLine("°-------------------------------------------------------------°");
                         Console.WriteLine("°         1. tema1: Sistema de informacion                    °");
                         Console.WriteLine("°         2. tema2: Sistema gestor de base de datos           °");
@@ -204,6 +205,7 @@ namespace BasesDeDatos
                         break;
                     
                     case 5:
+                        //Sistemas informaticos
                         Console.WriteLine("°---------------------------------------------------------------------------------°");
                         Console.WriteLine("° 1. tema1: Elementos, estructura y funciones generales de un sistema operativo I °");
                         Console.WriteLine("° 2. tema2: Sistemas de comunicaciones y redes                                    °");
@@ -235,6 +237,42 @@ namespace BasesDeDatos
                             case 1:
                                 TemaSistemasInformaticos Tema1 = new TemaSistemasInformaticos();
                                 Tema1.LlamarQuestionario1();
+                                break;
+                            case 2:
+                                TemaSistemasInformaticos Tema2 = new TemaSistemasInformaticos();
+                                Tema2.LlamarQuestionario2();
+                                break;
+                            case 3:
+                                TemaSistemasInformaticos Tema3 = new TemaSistemasInformaticos();
+                                Tema3.LlamarQuestionario3();
+                                break;
+                            case 4:
+                                TemaSistemasInformaticos Tema4 = new TemaSistemasInformaticos();
+                                Tema4.LlamarQuestionario4();
+                                break;
+                            case 5:
+                                TemaSistemasInformaticos Tema5 = new TemaSistemasInformaticos();
+                                Tema5.LlamarQuestionario5();
+                                break;
+                            case 6:
+                                TemaSistemasInformaticos Tema6 = new TemaSistemasInformaticos();
+                                Tema6.LlamarQuestionario6();
+                                break;
+                            case 7:
+                                TemaSistemasInformaticos Tema7 = new TemaSistemasInformaticos();
+                                Tema7.LlamarQuestionario7();
+                                break;
+                            case 8:
+                                TemaSistemasInformaticos Tema8 = new TemaSistemasInformaticos();
+                                Tema8.LlamarQuestionario8();
+                                break;
+                            case 9:
+                                TemaSistemasInformaticos Tema9 = new TemaSistemasInformaticos();
+                                Tema9.LlamarQuestionario9();
+                                break;
+                            case 10:
+                                TemaSistemasInformaticos Tema10 = new TemaSistemasInformaticos();
+                                Tema10.LlamarQuestionario10();
                                 break;
                             default:
                                 break;
