@@ -3,7 +3,7 @@ namespace BasesDeDatos
 {
     public class TemaSistemasInformaticos
     {
-        public void LlamarQuestionario1()
+        public void llamarQuestionario1()
         {
             string[] tema = {"Cuando nos referimos a dispositivos de entrada. // Teclado, raton, pantalla tactil, tableta dijitalizadora, USB ",
                 "¿Cuál de las siguientes afirmaciones es INCORRECTA! en relación a los tres elementos básicos de la unidad central de procesamiento (CPU)? // Unidad aritmético lógica (ALU), Registro de datos, Buses de E/S (LA CORRECTA ES: Unidad aritmético lógica (ALU), Registro de datos, Unidad de Control)",
@@ -31,7 +31,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario1();
+                llamarQuestionario1();
             }
             else if(respuesta =="n")
             {
@@ -40,7 +40,7 @@ namespace BasesDeDatos
 
             }
         }
-        public void LlamarQuestionario2()
+        public void llamarQuestionario2()
         {
             string[] tema = {"Los sistemas de archivos multiusuario (SOMU) // Permiten proveer servicio y procesamiento a múltiples usuarios simultáneamente",
                 "¿Qué tipo de sistema de archivos utiliza UNIX/LINUX? // EXT",
@@ -68,14 +68,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario2();
+                llamarQuestionario2();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario3()
+        public void llamarQuestionario3()
         {
             string[] tema = {"¿Cuál es el estándar para Ethernet? // IEEE 802.3",
                 "En las especifiaciones de un cable de par trenzado, ¿cuál es la máxima velocidad teórica? // 40 Gbps",
@@ -103,14 +103,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario3();
+                llamarQuestionario3();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario4()
+        public void llamarQuestionario4()
         {
             string[] tema = {"¿El software base (software de sistema) es el conjunto de programas preinstalados en un ordenador? // Verdadero",
                 "Para matar un proceso a través de comandos de texto, ¿qúe comando usarías? // Taskkill",
@@ -138,14 +138,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario4();
+                llamarQuestionario4();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario5()
+        public void llamarQuestionario5()
         {
             string[] tema = {"¿Cuál fue el primer modelo de ordenadores interconectados? // Centralizado",
                 "¿Cómo se denomina un sistema operativo multiusuario? // SOMU",
@@ -173,14 +173,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario5();
+                llamarQuestionario5();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario6()
+        public void llamarQuestionario6()
         {
             string[] tema = {"¿Son software de sistema los siguientes?, señala al respuesta incorrecta. // BIOS, loaders y compiladores",
                 "¿El software base (software de sistema) es el conjunto de programas preinstalados en un ordenador? // Verdadero",
@@ -208,14 +208,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario6();
+                llamarQuestionario6();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario7()
+        public void llamarQuestionario7()
         {
             string[] tema = {"¿Se puede virtualizar dentro de un S.O. MacOs un sistema operativo Windows? // Verdadero",
                 "¿Una máquina virtual de sistema es aquella que emula a un ordenador parcialmente? // Falso",
@@ -243,14 +243,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario7();
+                llamarQuestionario7();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario8()
+        public void llamarQuestionario8()
         {
             string[] tema = {"Si queremos instalar Windows 10 y nuestro ordenador tiene instalado 16 GB de RAM ¿Qúe arquitectura escogeremos? // x64",
                 "Si tenemos Windows 7 y queremos borrarlo completamente e instalar Linux ¿Cómo se llama este proceso?, SENALA LA RESPUESTA INCORRECTA // Actualizacion (LA CORRECTA ES: Migracion)",
@@ -278,14 +278,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario8();
+                llamarQuestionario8();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario9()
+        public void llamarQuestionario9()
         {
             string[] tema = {"Cuando hablamos de windows update, ¿es un tipo de? SENALA LA INCORRECTA. // Migracion (LA CORRECTA ES: Actualizacion)",
                 "¿En que tres cuentas se ejecutan los servicios? // Servicio local, servicio de red y sistema.",
@@ -313,14 +313,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                llamarQuestionario9();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario10()
+        public void llamarQuestionario10()
         {
             string[] tema = {"¿Cuál es la herramienta para reparar el arranque de Windows a través del modo CLI CMD? // Bootrec.exe",
                 "Hablando de la jerarquía de almacenamiento, ¿cuánto más rápida es la memoria a su vez es más barata? // Falso",
@@ -348,14 +348,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                llamarQuestionario10();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario11()
+        public void llamarQuestionario11()
         {
             string[] tema = {"¿Se puede dar privilegios de administrador a una tarea? // Verdadero",
                 "¿Cómo se denomina en tono coloquial el término update? // Subir version",
@@ -383,14 +383,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario11();
+                llamarQuestionario11();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario12()
+        public void llamarQuestionario12()
         {
             string[] tema = {"¿El sistema de archivos de Windows su principal función es la asignación de espacio a los archivos? // Verdadero",
                 "¿Cuál es el tamaño por defecto de un clúster en windows? // 512 bytes",
@@ -418,14 +418,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario12();
+                llamarQuestionario12();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario13()
+        public void llamarQuestionario13()
         {
             string[] tema = {"¿Se puede cifrar los datos en una copia de seguridad? // Verdadero",
                 "Cuándo queremos recuperar información, ¿a este proceso se le llama? // Restauración",
@@ -453,14 +453,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario13();
+                llamarQuestionario13();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario14()
+        public void llamarQuestionario14()
         {
             string[] tema = {"¿Cómo se llama el archivo que contiene la memoria virtual en Windows? // pagefile.sys",
                 "¿Podemos gestionar el tamaño de la memoria virtual en Windows? // Verdadero",
@@ -488,14 +488,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario14();
+                llamarQuestionario14();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario15()
+        public void llamarQuestionario15()
         {
             string[] tema = {"¿Qué comando usarías en cmd si quieres comprobar un disco y que te muestre un informe de estado? // CHKDSK",
                 "¿Cuántos tipos de interfaces de usuario existen? // 3",
@@ -523,14 +523,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario15();
+                llamarQuestionario15();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario16()
+        public void llamarQuestionario16()
         {
             string[] tema = {"¿Cómo se llama el archivo donde se guardan los perfiles de usuario? // NTuser.dat",
                 "¿Un perfil de usuario es lo mismo que una cuenta de usuario? // Verdadero",
@@ -558,14 +558,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario16();
+                llamarQuestionario16();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario17()
+        public void llamarQuestionario17()
         {
             string[] tema = {"¿Qué dos tipos de grupos existen? // Grupos de seguridad y grupos de distribución",
                 "¿Dónde guarda Windows la carpeta de usuarios? // Carpeta Usuarios",
@@ -593,14 +593,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario17();
+                llamarQuestionario17();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario18()
+        public void llamarQuestionario18()
         {
             string[] tema = {"Los paquetes de datos (segmentos) que viajan en una red entre emisor y receptor, ¿quién los crea? // TCP",
                 "¿Cuantas capas tiene el modelo TCP/IP? // 4",
@@ -628,14 +628,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario18();
+                llamarQuestionario18();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario19()
+        public void llamarQuestionario19()
         {
             string[] tema = {"¿Cuál es la velocidad máxima teórica de una LAN Fast Etherner? // 10,000 Mbps",
                 "¿Qúe tipo de NAT es considerado como básico? // RFC 2663",
@@ -663,14 +663,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario19();
+                llamarQuestionario19();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario20()
+        public void llamarQuestionario20()
         {
             string[] tema = {"2DAB:0000:0000:0000:0000:0000:DD72:2C4A, ¿está dirección IP corresponde a? // IPv6",
                 "¿Cuántas clases de IP existen? // Cinco",
@@ -698,14 +698,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario20();
+                llamarQuestionario20();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario21()
+        public void llamarQuestionario21()
         {
             string[] tema = {"¿En qué banda opera los repetidores WI-FI más comunes? // 2,4 y 5 GHZ",
                 "¿Normalmente en que capa del modelo OSI opera un switch? // Capa 2",
@@ -733,7 +733,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario21();
+                llamarQuestionario21();
             }
             else
             {

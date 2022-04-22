@@ -3,7 +3,7 @@ namespace BasesDeDatos
 {
     public class TemaProgramacion
     {
-        public void LlamarQuestionario1()
+        public void llamarQuestionario1()
         {
             string[] tema = {"En la programacion, la secuencia de la instrucciones - define el flujo del programa",
                 "Una asignacion es una intruccion que le da un valor numerico a una variable - Falso",
@@ -31,7 +31,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario1();
+                llamarQuestionario1();
             }
             else if(respuesta =="n")
             {
@@ -40,7 +40,7 @@ namespace BasesDeDatos
 
             }
         }
-        public void LlamarQuestionario2()
+        public void llamarQuestionario2()
         {
             string[] tema = {"",
                 "",
@@ -68,14 +68,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario2();
+                llamarQuestionario2();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario3()
+        public void llamarQuestionario3()
         {
             string[] tema = {"",
                 "",
@@ -103,14 +103,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario3();
+                llamarQuestionario3();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario4()
+        public void llamarQuestionario4()
         {
             string[] tema = {"",
                 "",
@@ -138,14 +138,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario4();
+                llamarQuestionario4();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario5()
+        public void llamarQuestionario5()
         {
             string[] tema = {"",
                 "",
@@ -173,14 +173,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario5();
+                llamarQuestionario5();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario6()
+        public void llamarQuestionario6()
         {
             string[] tema = {"",
                 "",
@@ -208,14 +208,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario6();
+                llamarQuestionario6();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario7()
+        public void llamarQuestionario7()
         {
             string[] tema = {"",
                 "",
@@ -243,14 +243,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario7();
+                llamarQuestionario7();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario8()
+        public void llamarQuestionario8()
         {
             string[] tema = {"",
                 "",
@@ -278,14 +278,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario8();
+                llamarQuestionario8();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario9()
+        public void llamarQuestionario9()
         {
             string[] tema = {"",
                 "",
@@ -313,14 +313,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                llamarQuestionario9();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario10()
+        public void llamarQuestionario10()
         {
             string[] tema = {"",
                 "",
@@ -348,7 +348,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                llamarQuestionario10();
             }
             else
             {

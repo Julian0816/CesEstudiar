@@ -59,60 +59,60 @@ namespace BasesDeDatos
                         switch (submenu)
                         {
                             case 1:
-                                Temario Tema1 = new Temario();
-                                Tema1.LlamarQuestionario1();
+                                Temario tema1 = new Temario();
+                                tema1.llamarQuestionario1();
                                 break;
                             case 2:
-                                Temario Tema2 = new Temario();
-                                Tema2.LlamarQuestionario2();
+                                Temario tema2 = new Temario();
+                                tema2.llamarQuestionario2();
                                 break;
                             case 3:
-                                Temario Tema3 = new Temario();
-                                Tema3.LlamarQuestionario3();
+                                Temario tema3 = new Temario();
+                                tema3.llamarQuestionario3();
                                 break;
                             case 4:
-                                Temario Tema4 = new Temario();
-                                Tema4.LlamarQuestionario4();
+                                Temario tema4 = new Temario();
+                                tema4.llamarQuestionario4();
                                 break;
                             case 5:
-                                Temario Tema5 = new Temario();
-                                Tema5.LlamarQuestionario5();
+                                Temario tema5 = new Temario();
+                                tema5.llamarQuestionario5();
                                 break;
                             case 6:
-                                Temario Tema6 = new Temario();
-                                Tema6.LlamarQuestionario6();
+                                Temario tema6 = new Temario();
+                                tema6.llamarQuestionario6();
                                 break;
                             case 7:
-                                Temario Tema7 = new Temario();
-                                Tema7.LlamarQuestionario7();
+                                Temario tema7 = new Temario();
+                                tema7.llamarQuestionario7();
                                 break;
                             case 8:
-                                Temario Tema8 = new Temario();
-                                Tema8.LlamarQuestionario8();
+                                Temario tema8 = new Temario();
+                                tema8.llamarQuestionario8();
                                 break;
                             case 9:
-                                Temario Tema9 = new Temario();
-                                Tema9.LlamarQuestionario9();
+                                Temario tema9 = new Temario();
+                                tema9.llamarQuestionario9();
                                 break;
                             case 10:
-                                Temario Tema10 = new Temario();
-                                Tema10.LlamarQuestionario10();
+                                Temario tema10 = new Temario();
+                                tema10.llamarQuestionario10();
                                 break;
                             case 11:
-                                Temario Tema11 = new Temario();
-                                Tema11.LlamarQuestionario11();
+                                Temario tema11 = new Temario();
+                                tema11.llamarQuestionario11();
                                 break;
                             case 12:
-                                Temario Tema12 = new Temario();
-                                Tema12.LlamarQuestionario12();
+                                Temario tema12 = new Temario();
+                                tema12.llamarQuestionario12();
                                 break;
                             case 13:
-                                Temario Tema13 = new Temario();
-                                Tema13.LlamarQuestionario13();
+                                Temario tema13 = new Temario();
+                                tema13.llamarQuestionario13();
                                 break;
                             case 14:
-                                Temario Tema14 = new Temario();
-                                Tema14.LlamarQuestionario14();
+                                Temario tema14 = new Temario();
+                                tema14.llamarQuestionario14();
                                 break;
                             case 15:
                                 Console.WriteLine("finalizo el estudio");
@@ -149,8 +149,8 @@ namespace BasesDeDatos
                         switch (submenu2)
                         {
                             case 1:
-                                TemaProgramacion Tema1 = new TemaProgramacion();
-                                Tema1.LlamarQuestionario1();
+                                TemaProgramacion tema1 = new TemaProgramacion();
+                                tema1.llamarQuestionario1();
                                 break;
                             default:
                                 break;
@@ -178,51 +178,51 @@ namespace BasesDeDatos
                         switch (submenu3)
                         {
                             case 1:
-                                TemaLenguajeDeMarcas Tema1 = new TemaLenguajeDeMarcas();
-                                Tema1.LlamarQuestionario1();
+                                TemaLenguajeDeMarcas tema1 = new TemaLenguajeDeMarcas();
+                                tema1.llamarQuestionario1();
                                 break;
                             case 2:
-                                TemaLenguajeDeMarcas Tema2 = new TemaLenguajeDeMarcas();
-                                Tema2.LlamarQuestionario2();
+                                TemaLenguajeDeMarcas tema2 = new TemaLenguajeDeMarcas();
+                                tema2.llamarQuestionario2();
                                 break;
                             case 3:
-                                TemaLenguajeDeMarcas Tema3 = new TemaLenguajeDeMarcas();
-                                Tema3.LlamarQuestionario3();
+                                TemaLenguajeDeMarcas tema3 = new TemaLenguajeDeMarcas();
+                                tema3.llamarQuestionario3();
                                 break;
                             case 4:
-                                TemaLenguajeDeMarcas Tema4 = new TemaLenguajeDeMarcas();
-                                Tema4.LlamarQuestionario4();
+                                TemaLenguajeDeMarcas tema4 = new TemaLenguajeDeMarcas();
+                                tema4.llamarQuestionario4();
                                 break;
                             case 5:
-                                TemaLenguajeDeMarcas Tema5 = new TemaLenguajeDeMarcas();
-                                Tema5.LlamarQuestionario5();
+                                TemaLenguajeDeMarcas tema5 = new TemaLenguajeDeMarcas();
+                                tema5.llamarQuestionario5();
                                 break;
                             case 6:
-                                TemaLenguajeDeMarcas Tema6 = new TemaLenguajeDeMarcas();
-                                Tema6.LlamarQuestionario6();
+                                TemaLenguajeDeMarcas tema6 = new TemaLenguajeDeMarcas();
+                                tema6.llamarQuestionario6();
                                 break;
                             case 7:
-                                TemaLenguajeDeMarcas Tema7 = new TemaLenguajeDeMarcas();
-                                Tema7.LlamarQuestionario7();
+                                TemaLenguajeDeMarcas tema7 = new TemaLenguajeDeMarcas();
+                                tema7.llamarQuestionario7();
                                 break;
                             case 8:
-                                TemaLenguajeDeMarcas Tema8 = new TemaLenguajeDeMarcas();
-                                Tema8.LlamarQuestionario8();
+                                TemaLenguajeDeMarcas tema8 = new TemaLenguajeDeMarcas();
+                                tema8.llamarQuestionario8();
                                 break;
                             case 9:
-                                TemaLenguajeDeMarcas Tema9 = new TemaLenguajeDeMarcas();
-                                Tema9.LlamarQuestionario9();
+                                TemaLenguajeDeMarcas tema9 = new TemaLenguajeDeMarcas();
+                                tema9.llamarQuestionario9();
                                 break;
                             case 10:
-                                TemaLenguajeDeMarcas Tema10 = new TemaLenguajeDeMarcas();
-                                Tema10.LlamarQuestionario10();
+                                TemaLenguajeDeMarcas tema10 = new TemaLenguajeDeMarcas();
+                                tema10.llamarQuestionario10();
                                 break;
                             default:
                                 break;
                         }
                         break;
                     
-                    //Entornos de Desarrollo -
+                    //Entornos de Desarrollo - por hacer
                     case 4:
                         //Entornos de desarrollos
                         Console.WriteLine("°--------------------------------------------------------------------°");
@@ -239,8 +239,8 @@ namespace BasesDeDatos
                         switch (submenu4)
                         {
                             case 1:
-                                TemaEntornoDeDesarrollos Tema1 = new TemaEntornoDeDesarrollos();
-                                Tema1.LlamarQuestionario1();
+                                TemaEntornoDeDesarrollos tema1 = new TemaEntornoDeDesarrollos();
+                                tema1.llamarQuestionario1();
                                 break;
                             default:
                                 break;
@@ -279,95 +279,95 @@ namespace BasesDeDatos
                         switch (submenu5)
                         {
                             case 1:
-                                TemaSistemasInformaticos Tema1 = new TemaSistemasInformaticos();
-                                Tema1.LlamarQuestionario1();
+                                TemaSistemasInformaticos tema1 = new TemaSistemasInformaticos();
+                                tema1.llamarQuestionario1();
                                 break;
                             case 2:
-                                TemaSistemasInformaticos Tema2 = new TemaSistemasInformaticos();
-                                Tema2.LlamarQuestionario2();
+                                TemaSistemasInformaticos tema2 = new TemaSistemasInformaticos();
+                                tema2.llamarQuestionario2();
                                 break;
                             case 3:
-                                TemaSistemasInformaticos Tema3 = new TemaSistemasInformaticos();
-                                Tema3.LlamarQuestionario3();
+                                TemaSistemasInformaticos tema3 = new TemaSistemasInformaticos();
+                                tema3.llamarQuestionario3();
                                 break;
                             case 4:
-                                TemaSistemasInformaticos Tema4 = new TemaSistemasInformaticos();
-                                Tema4.LlamarQuestionario4();
+                                TemaSistemasInformaticos tema4 = new TemaSistemasInformaticos();
+                                tema4.llamarQuestionario4();
                                 break;
                             case 5:
-                                TemaSistemasInformaticos Tema5 = new TemaSistemasInformaticos();
-                                Tema5.LlamarQuestionario5();
+                                TemaSistemasInformaticos tema5 = new TemaSistemasInformaticos();
+                                tema5.llamarQuestionario5();
                                 break;
                             case 6:
-                                TemaSistemasInformaticos Tema6 = new TemaSistemasInformaticos();
-                                Tema6.LlamarQuestionario6();
+                                TemaSistemasInformaticos tema6 = new TemaSistemasInformaticos();
+                                tema6.llamarQuestionario6();
                                 break;
                             case 7:
-                                TemaSistemasInformaticos Tema7 = new TemaSistemasInformaticos();
-                                Tema7.LlamarQuestionario7();
+                                TemaSistemasInformaticos tema7 = new TemaSistemasInformaticos();
+                                tema7.llamarQuestionario7();
                                 break;
                             case 8:
-                                TemaSistemasInformaticos Tema8 = new TemaSistemasInformaticos();
-                                Tema8.LlamarQuestionario8();
+                                TemaSistemasInformaticos tema8 = new TemaSistemasInformaticos();
+                                tema8.llamarQuestionario8();
                                 break;
                             case 9:
-                                TemaSistemasInformaticos Tema9 = new TemaSistemasInformaticos();
-                                Tema9.LlamarQuestionario9();
+                                TemaSistemasInformaticos tema9 = new TemaSistemasInformaticos();
+                                tema9.llamarQuestionario9();
                                 break;
                             case 10:
-                                TemaSistemasInformaticos Tema10 = new TemaSistemasInformaticos();
-                                Tema10.LlamarQuestionario10();
+                                TemaSistemasInformaticos tema10 = new TemaSistemasInformaticos();
+                                tema10.llamarQuestionario10();
                                 break;
                             case 11:
-                                TemaSistemasInformaticos Tema11 = new TemaSistemasInformaticos();
-                                Tema11.LlamarQuestionario11();
+                                TemaSistemasInformaticos tema11 = new TemaSistemasInformaticos();
+                                tema11.llamarQuestionario11();
                                 break;
                             case 12:
-                                TemaSistemasInformaticos Tema12 = new TemaSistemasInformaticos();
-                                Tema12.LlamarQuestionario12();
+                                TemaSistemasInformaticos tema12 = new TemaSistemasInformaticos();
+                                tema12.llamarQuestionario12();
                                 break;
                             case 13:
-                                TemaSistemasInformaticos Tema13 = new TemaSistemasInformaticos();
-                                Tema13.LlamarQuestionario13();
+                                TemaSistemasInformaticos tema13 = new TemaSistemasInformaticos();
+                                tema13.llamarQuestionario13();
                                 break;
                             case 14:
-                                TemaSistemasInformaticos Tema14 = new TemaSistemasInformaticos();
-                                Tema14.LlamarQuestionario14();
+                                TemaSistemasInformaticos tema14 = new TemaSistemasInformaticos();
+                                tema14.llamarQuestionario14();
                                 break;
                             case 15:
-                                TemaSistemasInformaticos Tema15 = new TemaSistemasInformaticos();
-                                Tema15.LlamarQuestionario15();
+                                TemaSistemasInformaticos tema15 = new TemaSistemasInformaticos();
+                                tema15.llamarQuestionario15();
                                 break;
                             case 16:
-                                TemaSistemasInformaticos Tema16 = new TemaSistemasInformaticos();
-                                Tema16.LlamarQuestionario16();
+                                TemaSistemasInformaticos tema16 = new TemaSistemasInformaticos();
+                                tema16.llamarQuestionario16();
                                 break;
                             case 17:
-                                TemaSistemasInformaticos Tema17 = new TemaSistemasInformaticos();
-                                Tema17.LlamarQuestionario17();
+                                TemaSistemasInformaticos tema17 = new TemaSistemasInformaticos();
+                                tema17.llamarQuestionario17();
                                 break;
                             case 18:
-                                TemaSistemasInformaticos Tema18 = new TemaSistemasInformaticos();
-                                Tema18.LlamarQuestionario18();
+                                TemaSistemasInformaticos tema18 = new TemaSistemasInformaticos();
+                                tema18.llamarQuestionario18();
                                 break;
                             case 19:
-                                TemaSistemasInformaticos Tema19 = new TemaSistemasInformaticos();
-                                Tema19.LlamarQuestionario19();
+                                TemaSistemasInformaticos tema19 = new TemaSistemasInformaticos();
+                                tema19.llamarQuestionario19();
                                 break;
                             case 20:
-                                TemaSistemasInformaticos Tema20 = new TemaSistemasInformaticos();
-                                Tema20.LlamarQuestionario20();
+                                TemaSistemasInformaticos tema20 = new TemaSistemasInformaticos();
+                                tema20.llamarQuestionario20();
                                 break;
                             case 21:
-                                TemaSistemasInformaticos Tema21 = new TemaSistemasInformaticos();
-                                Tema21.LlamarQuestionario21();
+                                TemaSistemasInformaticos tema21 = new TemaSistemasInformaticos();
+                                tema21.llamarQuestionario21();
                                 break;
                             default:
                                 break;
                         } 
                         break;
                     
-                    //FOL -
+                    //FOL - por hacer
                     case 6:
                         //FOL
                         Console.WriteLine("°------------------------------------------------------------------------------------------°");
@@ -394,8 +394,8 @@ namespace BasesDeDatos
                         switch (submenu6)
                         {
                             case 1:
-                                TemaFOL Tema1 = new TemaFOL();
-                                Tema1.LlamarQuestionario1();
+                                TemaFOL tema1 = new TemaFOL();
+                                tema1.llamarQuestionario1();
                                 break;
                             default:
                                 break;

@@ -3,7 +3,7 @@ namespace BasesDeDatos
 {
     public class TemaLenguajeDeMarcas
     {
-        public void LlamarQuestionario1()
+        public void llamarQuestionario1()
         {
             string[] tema = {"CSS4 se usa para referirse a actualizaciones que han ocurrido después de... // CSS2",
                 "Node.js ha permitido que JavaScript ejecute código en el lado del cliente y en el del servidor // Verdadero",
@@ -31,7 +31,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario1();
+                llamarQuestionario1();
             }
             else if(respuesta =="n")
             {
@@ -40,7 +40,7 @@ namespace BasesDeDatos
 
             }
         }
-        public void LlamarQuestionario2()
+        public void llamarQuestionario2()
         {
             string[] tema = {"La etiqueta head define el encabezado para un documento o una sección // Falso",
                 "Los comentarios en HTML se escriben utilizando la sintaxis /**/ // Verdadero",
@@ -67,14 +67,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario2();
+                llamarQuestionario2();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario3()
+        public void llamarQuestionario3()
         {
             string[] tema = {"En XHTML los nombres de las etiquetas se distinguen entre mayúsculas y minúscula // Verdadero",
                 "Las ID las asignamos a un único elemento y las clases a varios elementos // Verdadero",
@@ -104,14 +104,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario3();
+                llamarQuestionario3();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario4()
+        public void llamarQuestionario4()
         {
             string[] tema = {"Los valores de color hexadecimales se indican por medio de un # y 6 caracteres (letras y/o números) // TRUE",
                 "No podemos importar fuentes a nuestra web, solo podemos usar aquellas que vienen por defecto en nuestro navegador // FALSE",
@@ -137,14 +137,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario4();
+                llamarQuestionario4();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario5()
+        public void llamarQuestionario5()
         {
             string[] tema = {"Las media queries nos permiten // Agregar un punto de interrupción donde ciertas partes del diseño se comportarán de manera diferente en cada lado del punto de interrupción.",
                 "Una plantilla web puede incluir // Texto e imágenes .jpg, .png o .gif, animación jQuery y CSS3. Entre otros",
@@ -172,14 +172,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario5();
+                llamarQuestionario5();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario6()
+        public void llamarQuestionario6()
         {
             string[] tema = {"¿Qué significa POO? // Programación Orientada a Objetos",
                 "El proceso de combinar elementos para crear una nueva entidad se llama abstracción // TRUE",
@@ -209,14 +209,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario6();
+                llamarQuestionario6();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario7()
+        public void llamarQuestionario7()
         {
             string[] tema = {"Los arrays se utilizan para almacenar varios valores dentro de una misma variable // Verdadero",
                 "Onmouseover? // El usuario coloca el ratón sobre un elemento HTML",
@@ -244,14 +244,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario7();
+                llamarQuestionario7();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario8()
+        public void llamarQuestionario8()
         {
             string[] tema = {"Las marcas de XML en cuanto a las mayúsculas y minúsculas // No distinguen entre mayúsculas y minúsculas",
                 "El método x.removeChild(): elimina un nodo hijo de x. // Verdadero",
@@ -278,14 +278,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario8();
+                llamarQuestionario8();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario9()
+        public void llamarQuestionario9()
         {
             string[] tema = {"En un ábol de nodos, el nodo superior se llama base // Falso",
                 "Qué usamos para transformar un documento XML en otro documento XML // XSLT",
@@ -313,14 +313,14 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                llamarQuestionario9();
             }
             else
             {
                 Console.WriteLine("Vuelve a revisar los apuntes");
             }
         }
-        public void LlamarQuestionario10()
+        public void llamarQuestionario10()
         {
             string[] tema = {"Dentro del CRM las campañas están diseñadas para medir la efectividad y lograr un resultado específico, como introducir un nuevo producto o aumentar la cuota de mercado // Verdadero",
                 "Los SGE suponen un mayor costo para las empresas // Falso",
@@ -348,7 +348,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                llamarQuestionario10();
             }
             else
             {

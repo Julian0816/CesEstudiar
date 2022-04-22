@@ -5,7 +5,7 @@ namespace BasesDeDatos
     public class Temario
     {
 
-        public void LlamarQuestionario1()
+        public void llamarQuestionario1()
         {
             string[] tema = {"Un archivo se expresa en bytes. Verdadero",
                                "Un sistema de informacion se corresponde de datos, harware y software",
@@ -33,7 +33,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario1();
+                llamarQuestionario1();
             }
             else if(respuesta =="n")
             {
@@ -43,7 +43,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario2()
+        public void llamarQuestionario2()
         {
             string[] tema = {"Que base de datos no da un acceso concurrente -Microsoft office- / si dan: Oracle, MySQL, SQL Server",
                               "Oracle es una base de datos no relacional. Falso",
@@ -71,7 +71,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario2();
+                llamarQuestionario2();
             }
             else
             {
@@ -79,7 +79,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario3()
+        public void llamarQuestionario3()
         {
             string[] tema = {"La base de datos relacional son recomendables cuando: Los datos que vamos a utilizar tienen un margen de error nulo",
                               "Ventajas BBDD centralizadas: Facil implementación, Diseno sencillo",
@@ -107,7 +107,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario3();
+                llamarQuestionario3();
             }
             else
             {
@@ -115,7 +115,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario4()
+        public void llamarQuestionario4()
         {
             string[] tema = {"¿Cuál de estas etapas NO corresponde al diseño de una base de datos? Etapa de diseño de la interfaz (Si corresponden: Etapa del diseño conceptual, Etapa del diseño físico, Etapa del diseño lógico)",
                              "Una arquitectura basada en eventos está compuesta por consumidores y productores de eventos. - Verdadero",
@@ -143,7 +143,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario4();
+                llamarQuestionario4();
             }
             else
             {
@@ -151,7 +151,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario5()
+        public void llamarQuestionario5()
         {
             string[] tema = {"Los atributos.. Hacen que unas entidades se distingan de otras",
                              "Un objeto que existe en una realidad que queremos representar, es: Una entidad",
@@ -180,7 +180,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario5();
+                llamarQuestionario5();
             }
             else
             {
@@ -188,7 +188,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario6()
+        public void llamarQuestionario6()
         {
             string[] tema = {"La teoria de la normalizacion se basa en cuatro formas normales - Falso, se basa en tres",
                              "El registro o auditoria es: Poder registrar las acciones de los usuarios",
@@ -216,7 +216,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario6();
+                llamarQuestionario6();
             }
             else
             {
@@ -224,7 +224,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario7()
+        public void llamarQuestionario7()
         {
             string[] tema = {"El comando alter se utiliza para: Modificar objetos de una base de datos",
                              "Para representar datos de tipo numérico usamos: Int, Float, Bit, Double",
@@ -252,7 +252,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario7();
+                llamarQuestionario7();
             }
             else
             {
@@ -260,7 +260,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario8()
+        public void llamarQuestionario8()
         {
             string[] tema = {"Ejemplos de DML: IMS / DL 1, CODASYL, SQL",
                              "Para abandonar la transacción y deshacer los cambios que se hubieran hecho en la transacciónse utiliza el comando ROLLBACK - VAERDADERO",
@@ -288,7 +288,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario8();
+                llamarQuestionario8();
             }
             else
             {
@@ -296,7 +296,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario9()
+        public void llamarQuestionario9()
         {
             string[] tema = {"¿ Cuál de estas afirmaciones es correcta ? - ASC, especifica que la columna indicada en la cláusula ORDER BY se ordenará de forma ascendente, o sea, de menor a mayor.",
                               "¿Cuál de estás expresiones no es una condición lógica? - WHERE",
@@ -325,7 +325,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                llamarQuestionario9();
             }
             else
             {
@@ -333,7 +333,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario10()
+        public void llamarQuestionario10()
         {
             string[] tema = {"¿Cuál de estos conceptos no está relacionado con MySQL ? - Bases de datos no relacional",
                              "¿Cuáles de estas frases se corresponde con MySQL? - Todas: Un amplio compendio de servidores de clúster respalda a MySQL - Puedes modificar el código fuente para satisfacer tus propias expectativas - MySQL establece un alto estándar de seguridad",
@@ -361,7 +361,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                llamarQuestionario10();
             }
             else
             {
@@ -369,7 +369,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario11()
+        public void llamarQuestionario11()
         {
             string[] tema = {"cual es la funcionalidad de la clausula ‘WHERE’? - Podemos especificar condiciones para una consulta ‘select’", 
                              "¿Qué diferencias hay entre PostgreSQL y MySQL? -El tipo de consultas en PostgreSQL suelen ser mas complejas -  ", 
@@ -397,7 +397,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario11();
+                llamarQuestionario11();
             }
             else
             {
@@ -405,7 +405,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario12()
+        public void llamarQuestionario12()
         {
             string[] tema = {"La programación orientada a objetos? - Es una solución concreta basada en un paradigma que utiliza los mismos conceptos teóricos que el análisis orientado a objetos",
                              "La sentencia INHERITS se utiliza para indicar que una tabla hereda de otra - Verdadero",
@@ -433,7 +433,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario12();
+                llamarQuestionario12();
             }
             else
             {
@@ -441,7 +441,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario13()
+        public void llamarQuestionario13()
         {
             string[] tema = {"¿Cuál no es un tipo de actualización de la memoria externa? - Actualización genérica",
                              "¿Qué perfiles tenemos de algoritmos de recuperación? - Todas: Undo / No Redo -- No Undo / Redo -- Undo / Redo",
@@ -469,7 +469,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario13();
+                llamarQuestionario13();
             }
             else
             {
@@ -477,7 +477,7 @@ namespace BasesDeDatos
             }
         }
 
-        public void LlamarQuestionario14()
+        public void llamarQuestionario14()
         {
             string[] tema = {"El RTO sería el mayor intervalo de tiempo aceptable de pérdida de datos - Falso",
                              "¿Cuál es la causa más común de la pérdida de datos? - Por errores de los usuarios",
@@ -505,7 +505,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario14();
+                llamarQuestionario14();
             }
             else
             {
