@@ -357,16 +357,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario11()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Se puede dar privilegios de administrador a una tarea? // Verdadero",
+                "¿Cómo se denomina en tono coloquial el término update? // Subir version",
+                "¿Se puede programar a una hora concreta una tarea en el programador de tareas? // Verdadero",
+                "¿Las instalaciones desantendidas se usan en empresas de tamaño? // Grande",
+                "¿Cuándo queremos lanzar una instalación desantendida a través de la red LAN usaremos? // Servidor PXE",
+                "¿Se puede enviar emails de forma automática a través del programador de tareas? // Verdadero",
+                "¿Una nueva tarea se puede ejecutar? // Una sola vez, a diario, cada semana, cada mes",
+                "¿Cómo se denomina en tono coloquial el término downgrade? // Bajar Versión",
+                "¿Qué fichero es necesario para el arranque de Windows Nt? // Boot.ini",
+                "¿A través de un update podemos arreglar problemas de incompatibilidades y bugs? // Verdadero"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -383,7 +383,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario8();
+                LlamarQuestionario11();
             }
             else
             {
@@ -392,16 +392,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario12()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿El sistema de archivos de Windows su principal función es la asignación de espacio a los archivos? // Verdadero",
+                "¿Cuál es el tamaño por defecto de un clúster en windows? // 512 bytes",
+                "¿Un archivo puede contener atributos de sólo lectura y oculto al mismo tiempo? // Verdadero",
+                "¿Los archivos fotográficos jpeg son comprimidos sin perdidas? // Falso",
+                "¿Se puede cifrar el contenido de un archivo a través de sus atributos? // Verdadero",
+                "¿Cuál es la extensión por defecto en Windows para archivos comprimidos? // .zip",
+                "¿Cuando hablamos de sistema de archivos FAT32? // Tiene un límite de 4GB por archivo",
+                "¿Cuál de los siguientes tipos sistema de archivos NO ES CORRECTO, cuando hablamos de sistema de archivos MS-DOS y Windows? // FAT, FAT32, HFS+, APFS, EXT4 (LA RESPUESTA CORRECTA ES: FAT, FAT32, NTFS, exFAT) ",
+                "¿Cuando nos referimos a tipo de sistema de archivos exFAT? SENALA LA RESPUESTA INCORRECTA // Es compatible sólo con sistemas operativos Windows (LA RESPUESTA CORRECTA ES: Es compatible con todos los sistemas operativos) ",
+                "¿Es necesario un software específico compresión/descompresión para ejecutar archivo con extensión .exe? // No"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -418,7 +418,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                LlamarQuestionario12();
             }
             else
             {
@@ -427,16 +427,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario13()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Se puede cifrar los datos en una copia de seguridad? // Verdadero",
+                "Cuándo queremos recuperar información, ¿a este proceso se le llama? // Restauración",
+                "¿Para ahorrar espacio cuando se realiza una copia de seguridad utilizaremos? // Compresión",
+                "¿Se puede hacer una copia de seguridad a un fichero en ejecución? // Sí, pero puede que no se guarden todos los cambios del fichero en ejecución ",
+                "¿Cuál es la medida de sistema de archivos que utiliza la tecnología a nivel de bloque? // Kilobyte",
+                "¿En qué sistema de archivos es necesario preparar la unidad donde se realizará la copia de seguridad? // NTFS",
+                "¿Algunos sistemas de ficheros poseen un bit de archivo para cada fichero. Este nos indica si recientemente ha sido modificado? // Verdadero",
+                "¿Una copia de seguridad es aconsejable en caso de borrado accidental, virus, etc.? // Verdadero",
+                "¿Cómo se le denomina cuando creamos una imagen en de una base de datos mientras esté activa y en uso? // Copia en caliente",
+                "¿Una de las limitaciones que tendremos a la hora de realizar una copia de seguridad es? // El tamaño del soporte donde se realizará la copia de seguridad"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -453,7 +453,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                LlamarQuestionario13();
             }
             else
             {
@@ -462,16 +462,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario14()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Cómo se llama el archivo que contiene la memoria virtual en Windows? // pagefile.sys",
+                "¿Podemos gestionar el tamaño de la memoria virtual en Windows? // Verdadero",
+                "¿Cuántos discos mínimos necemitamos para hacer un RAID 3? // 3",
+                "¿Qué tipo de soporte de almacenamiento podemos hacer RAID? // Discos rígidos y/o sólidos",
+                "¿La memoria virtual es una parte reservada de nuestro disco duro para poderla utilizar como si fuese memoria RAM? // Verdadero",
+                "¿Cuántos discos mínimos necemitamos para hacer un RAID 0? // 2",
+                "¿Los logs se usan para programar tareas en Windows? // Falso",
+                "¿Qué tipos de RAID existen? // Hardware y software",
+                "¿Qué tipo de volúmenes existen? // Volumen simple, volumen distribuido, volumen seleccionado.",
+                "Entre RAID 0 y RAID 1, ¿cuál es más lento a la hora de escribir y leer datos? // RAID 1"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -488,7 +488,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario8();
+                LlamarQuestionario14();
             }
             else
             {
@@ -497,16 +497,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario15()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Qué comando usarías en cmd si quieres comprobar un disco y que te muestre un informe de estado? // CHKDSK",
+                "¿Cuántos tipos de interfaces de usuario existen? // 3",
+                "¿El modo CLI? SENALA LA INCORRECTA // Este modo se usa para interactuar con sistema operativo a través de un entorno gráfico (LA RESPUESTA CORRECTA ES: Este modo se utiliza para dar órdenes al programa con instrucciones escritas)",
+                "¿Qué interface usas cuando haces gestos con los dedos en la pantalla de tu móvil? // NUI",
+                "¿Cuál era la interface más usada en MS-DOS? // CLI",
+                "¿Cómo se llama la interface gráfica de Windows 10? SENALA LA INCORRECTA // X Windows System (LA CORRECTA ES: Fluent Design)",
+                "¿El modo TUI utiliza solo texto ASCII para dibujar las ventanas, botones, etc.? // Verdadero",
+                "¿Quién utilizo por primera vez la interface GUI? // Apple",
+                "¿Qué interface gráfica se usa actualmente en los sistemas operativos como por ejemplo Windows 10? SENALA LA INCORRECTA // CLI (LA CORRECTA ES: GUI)",
+                "¿Qué interface usa el asistente de apple Siri para interactuar con nosotros? // VUI"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -523,7 +523,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                LlamarQuestionario15();
             }
             else
             {
@@ -532,16 +532,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario16()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Cómo se llama el archivo donde se guardan los perfiles de usuario? // NTuser.dat",
+                "¿Un perfil de usuario es lo mismo que una cuenta de usuario? // Verdadero",
+                "¿Quién puede agregar, modificar o quitar perfiles de usuario? // Administradores",
+                "¿Los perfiles de usuario se pueden guardar? // En servidor y local",
+                "¿Cuántos perfiles especiales de usuario existen? // Cuatro",
+                "¿Las cookies se guardan el el perfil del usuario? // Verdadero",
+                "Dentro de los grupos predeterminados de invitado, ¿pueden hacer hacer copias de seguridad de archivos y directorios? // Verdadero",
+                "¿Los grupos locales predeterminados se crean automáticamente al instalar el sistema operativo? // Verdadero",
+                "¿Un perfil de usuario móvil guarda la configuración en el servidor? // Verdadero",
+                "¿Un perfil de usuario local guarda la configuración en el servidor? // Falso"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -558,7 +558,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                LlamarQuestionario16();
             }
             else
             {
@@ -567,16 +567,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario17()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Qué dos tipos de grupos existen? // Grupos de seguridad y grupos de distribución",
+                "¿Dónde guarda Windows la carpeta de usuarios? // Carpeta Usuarios",
+                "¿Una cuenta de usuario representa a varias personas? // Falso",
+                "¿Cuáles son los estados de los hilos? // En ejecución, bloqueado, preparado y terminado",
+                "¿Un proceso se ejecuta en? // Primer plano",
+                "¿Quién puede crear, modificar o eliminar a un usuario local? // Administrador",
+                "¿En los sistemas operativos actuales se usa procesos? // Multihilo",
+                "¿Dentro de usuarios locales que tipos hay? // Usuarios globales y perfiles de usuario",
+                "¿Cuáles son los estados de los procesos? // Activo, preparado, bloqueado",
+                "¿Cómo se llama el archivo que contiene los datos de configuración del usuario? // NTUSER.dat"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -593,7 +593,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario8();
+                LlamarQuestionario17();
             }
             else
             {
@@ -602,16 +602,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario18()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Los paquetes de datos (segmentos) que viajan en una red entre emisor y receptor, ¿quién los crea? // TCP",
+                "¿Cuantas capas tiene el modelo TCP/IP? // 4",
+                "¿Qué es ARP? // Un protocolo",
+                "¿ARPANET y MILNET fuerón los precursores de internet actual world wide web (www)? // Verdadero",
+                "¿Cuál fue la primera red de computadoras? // ARPANET",
+                "¿Qúe protocolo se encarga de direccionar la información entre dos nodos? // IP",
+                "La encapsulación de los paquetes de datos que viajan por TCP/IP, ¿qué nombre también recibe? // Datagrama IP",
+                "¿Qué protocolo garantiza que los paquetes de datos lleguen de forma correcta a su destino? TCP",
+                "¿Cualquier enrutador dispone de una tabla con dirección de la red y subred que conoce? // Verdadero",
+                "¿Un FTP o un STMP en que capa operan? // Capa aplicación"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -628,7 +628,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                LlamarQuestionario18();
             }
             else
             {
@@ -637,16 +637,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario19()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Cuál es la velocidad máxima teórica de una LAN Fast Etherner? // 10,000 Mbps",
+                "¿Qúe tipo de NAT es considerado como básico? // RFC 2663",
+                "¿Qué nivel de VLAN es el más común? // Nicel 1",
+                "¿Cómo se denomina comunmente a una tarjeta de red? // NIC",
+                "¿Qué nivel de VLAN hace referencia a filtrado por direcciones MAC? // Nivel 2",
+                "¿Cuál es el puerto más usado actualmente en un a tarjeta de red? // RJ45",
+                "¿Qué es una VLAN? // Es un método para crear redes lógicas independientes dentro de una misma red física",
+                "¿Cuál de las siguientes respuestas se asemeja más a las ventajas de un servidor proxy? // Anonimato",
+                "¿Qúe tipo de NAT estamos usando si la dirección IP privada se traduce a una dirección IP pública? // NAT Estática",
+                "¿Cuál es el estándar para WiFi? // IEEE 802.11"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -663,7 +663,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                LlamarQuestionario19();
             }
             else
             {
@@ -672,16 +672,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario20()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"2DAB:0000:0000:0000:0000:0000:DD72:2C4A, ¿está dirección IP corresponde a? // IPv6",
+                "¿Cuántas clases de IP existen? // Cinco",
+                "¿Cúantas clases de mascaras de red existen? // Tres",
+                "Para redes pequeño tamaño, ¿que clase de IP usaremos? // Clase C",
+                "Para redes de gran tamaño, ¿que clase de IP usaremos? // Clase A",
+                "¿El protocolo TCP/IP divide la información en? // Paquetes",
+                "¿Las direcciones IPv6 se expresan en formato? // Hexadecimal",
+                "¿Qúe clase de IP utiliza los Multticast? // Clase D",
+                "¿De cuantos bits se compone una mascara de red? // 32 bits",
+                "¿Las direcciones IPv4 tienen 128bits? // Falso"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -698,7 +698,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario9();
+                LlamarQuestionario20();
             }
             else
             {
@@ -707,16 +707,16 @@ namespace BasesDeDatos
         }
         public void LlamarQuestionario21()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿En qué banda opera los repetidores WI-FI más comunes? // 2,4 y 5 GHZ",
+                "¿Normalmente en que capa del modelo OSI opera un switch? // Capa 2",
+                "Si tenemos una señal débil en una red de cable, ¿que dispositivo usaremos para amplificar la señal? // Repetidor",
+                "¿Existen los repetidores de fibra óptica? // Verdadero",
+                "¿Qué tipos de router existen? // Router de acceso y distribución",
+                "¿Para que sirve una pasarela? // Hacer de puente entre dos aplicaciones o redes incompatibles",
+                "¿Los repetidores operan en la capa 2 del modelo OSI? // Falso",
+                "¿Un router puede hacer de punto de acceso WIFI? // Verdadero",
+                "¿Un router puede hacer la funcionalidad de un servidor DNS? // Falso",
+                "¿Los puentes bridges operan en la capa 2 del model OSI? // Verdadero"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -733,7 +733,7 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                LlamarQuestionario10();
+                LlamarQuestionario21();
             }
             else
             {

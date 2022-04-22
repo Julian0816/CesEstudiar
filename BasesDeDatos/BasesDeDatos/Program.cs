@@ -34,6 +34,7 @@ namespace BasesDeDatos
 
                 switch (opc)
                 {
+                    //Completo
                     case 1:
                         //Bases de Datos
                         Console.WriteLine("°-------------------------------------------------------------°");
@@ -121,7 +122,9 @@ namespace BasesDeDatos
                         }
                         break;
                     
+                    //Incompleto
                     case 2:
+                        //Programacion
                         Console.WriteLine("°------------------------------------------------------------------------°");
                         Console.WriteLine("°     1. tema1: Introducción a la programación                           °");
                         Console.WriteLine("°     2. tema2: Estructuras de control de flujo: condicion               °");
@@ -155,6 +158,7 @@ namespace BasesDeDatos
                         break;
                     
                     case 3:
+                        //Lenguaje de Marcas
                         Console.WriteLine("°------------------------------------------------------------------------------°");
                         Console.WriteLine("° 1. tema1: Introducción a los lenguajes de marcas HTML                        °");
                         Console.WriteLine("° 2. tema2: Lenguaje de muestra de contenidos e informacion web parte II html  °");
@@ -182,6 +186,7 @@ namespace BasesDeDatos
                         break;
                     
                     case 4:
+                        //Entornos de desarrollos
                         Console.WriteLine("°--------------------------------------------------------------------°");
                         Console.WriteLine("°         1. tema1: Elementos del desarrolo software                 °");
                         Console.WriteLine("°         2. tema2: Entornos integrados de desarrollo                °");
@@ -204,6 +209,7 @@ namespace BasesDeDatos
                         }
                         break;
                     
+                    //Completo
                     case 5:
                         //Sistemas informaticos
                         Console.WriteLine("°---------------------------------------------------------------------------------°");
@@ -274,12 +280,57 @@ namespace BasesDeDatos
                                 TemaSistemasInformaticos Tema10 = new TemaSistemasInformaticos();
                                 Tema10.LlamarQuestionario10();
                                 break;
+                            case 11:
+                                TemaSistemasInformaticos Tema11 = new TemaSistemasInformaticos();
+                                Tema11.LlamarQuestionario11();
+                                break;
+                            case 12:
+                                TemaSistemasInformaticos Tema12 = new TemaSistemasInformaticos();
+                                Tema12.LlamarQuestionario12();
+                                break;
+                            case 13:
+                                TemaSistemasInformaticos Tema13 = new TemaSistemasInformaticos();
+                                Tema13.LlamarQuestionario13();
+                                break;
+                            case 14:
+                                TemaSistemasInformaticos Tema14 = new TemaSistemasInformaticos();
+                                Tema14.LlamarQuestionario14();
+                                break;
+                            case 15:
+                                TemaSistemasInformaticos Tema15 = new TemaSistemasInformaticos();
+                                Tema15.LlamarQuestionario15();
+                                break;
+                            case 16:
+                                TemaSistemasInformaticos Tema16 = new TemaSistemasInformaticos();
+                                Tema16.LlamarQuestionario16();
+                                break;
+                            case 17:
+                                TemaSistemasInformaticos Tema17 = new TemaSistemasInformaticos();
+                                Tema17.LlamarQuestionario17();
+                                break;
+                            case 18:
+                                TemaSistemasInformaticos Tema18 = new TemaSistemasInformaticos();
+                                Tema18.LlamarQuestionario18();
+                                break;
+                            case 19:
+                                TemaSistemasInformaticos Tema19 = new TemaSistemasInformaticos();
+                                Tema19.LlamarQuestionario19();
+                                break;
+                            case 20:
+                                TemaSistemasInformaticos Tema20 = new TemaSistemasInformaticos();
+                                Tema20.LlamarQuestionario20();
+                                break;
+                            case 21:
+                                TemaSistemasInformaticos Tema21 = new TemaSistemasInformaticos();
+                                Tema21.LlamarQuestionario21();
+                                break;
                             default:
                                 break;
                         } 
                         break;
                     
                     case 6:
+                        //FOL
                         Console.WriteLine("°------------------------------------------------------------------------------------------°");
                         Console.WriteLine("° 1. tema1: El derecho del trabajo                                                         °");
                         Console.WriteLine("° 2. tema2: Contratos de trabajo                                                           °");
