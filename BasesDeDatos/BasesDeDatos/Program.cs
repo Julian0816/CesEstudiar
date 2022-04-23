@@ -5,13 +5,7 @@ namespace BasesDeDatos
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            //Para seleccionar un tema:
-            //Des-comentar el tema que se quier usar.
-
-            //Ahora mismo solo puedo usar un tema a la vez, la pregunta es como puedo cambiar de usar un solo tema, o dos a la vez
-            //o tres.. o todos los temas a la vez?
+        private static void Main(string[] args) {
             int opc = 0;
             int submenu = 0;
             int submenu2 = 0;
@@ -367,7 +361,7 @@ namespace BasesDeDatos
                         } 
                         break;
                     
-                    //FOL - por hacer
+                    //FOL - Completo
                     case 6:
                         //FOL
                         Console.WriteLine("°------------------------------------------------------------------------------------------°");
@@ -394,8 +388,68 @@ namespace BasesDeDatos
                         switch (submenu6)
                         {
                             case 1:
-                                TemaFOL tema1 = new TemaFOL();
+                                TemaFol tema1 = new TemaFol();
                                 tema1.llamarQuestionario1();
+                                break;
+                            case 2:
+                                TemaFol tema2 = new TemaFol();
+                                tema2.llamarQuestionario2();
+                                break;
+                            case 3:
+                                TemaFol tema3 = new TemaFol();
+                                tema3.llamarQuestionario3();
+                                break;
+                            case 4:
+                                TemaFol tema4 = new TemaFol();
+                                tema4.llamarQuestionario4();
+                                break;
+                            case 5:
+                                TemaFol tema5 = new TemaFol();
+                                tema5.llamarQuestionario5();
+                                break;
+                            case 6:
+                                TemaFol tema6 = new TemaFol();
+                                tema6.llamarQuestionario6();
+                                break;
+                            case 7:
+                                TemaFol tema7 = new TemaFol();
+                                tema7.llamarQuestionario7();
+                                break;
+                            case 8:
+                                TemaFol tema8 = new TemaFol();
+                                tema8.llamarQuestionario8();
+                                break;
+                            case 9:
+                                TemaFol tema9 = new TemaFol();
+                                tema9.llamarQuestionario9();
+                                break;
+                            case 10:
+                                TemaFol tema10 = new TemaFol();
+                                tema10.llamarQuestionario10();
+                                break;
+                            case 11:
+                                TemaFol tema11 = new TemaFol();
+                                tema11.llamarQuestionario11();
+                                break;
+                            case 12:
+                                TemaFol tema12 = new TemaFol();
+                                tema12.llamarQuestionario12();
+                                break;
+                            case 13:
+                                TemaFol tema13 = new TemaFol();
+                                tema13.llamarQuestionario13();
+                                break;
+                            case 14:
+                                TemaFol tema14 = new TemaFol();
+                                tema14.llamarQuestionario14();
+                                break;
+                            case 15:
+                                TemaFol tema15 = new TemaFol();
+                                tema15.llamarQuestionario15();
+                                break;
+                            case 16:
+                                TemaFol tema16 = new TemaFol();
+                                tema16.llamarQuestionario16();
                                 break;
                             default:
                                 break;
