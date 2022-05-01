@@ -182,16 +182,21 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario5()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"En una agregación, al eliminar el objeto se destruirán también sus agregados. // Falso",
+                "La programación orientada a objetos sigue la filosofía divide et impera (dividir el problema en objetos). // Falso",
+                "Una composición es un tipo de asociación. // Verdadero",
+                "La multiplicidad 12,24 quiere decir que pueden existir de 12 a 24 objetos de dicha clase. // Falso",
+                "Los métodos son la parte dinámica de la clase y deberían seguir la notación camellCase. // Verdadero",
+                "El UML es útil tanto en proyectos pequeños como en proyectos muy grandes. // Verdadero",
+                "En el nivel protegido, las subclases podrán utilizar los atributos y métodos protegidos de la clase base, pero las subclases de estas NO los heredarán. // Verdadero",
+                "El OMG se encarga del estándar UML. // Verdadero",
+                "En una composición, al eliminar el objeto se destruirán también sus compuestos. // Verdadero",
+                "En UML no es posible establecer valores por defecto a ciertos atributos. Esto se hace en la fase de programación. // Falso",
+                "En UML se definen las clases. No es posible modelar objetos. // Falso",
+                "Un objeto siempre es una entidad que tiene una serie de propiedades y un comportamiento. // Verdadero",
+                "Una agregación es un tipo de asociación. // Verdadero",
+                "La POO intenta representar la realidad de aquellas partes o elementos que forman el problema que hay que resolver. // Verdadero",
+                "UML es el acrónimo de united modeling language. // Falso"};
 
             for (int i = 0; i < tema.Length; i++)
             {
