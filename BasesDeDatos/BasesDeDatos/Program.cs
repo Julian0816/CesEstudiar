@@ -154,6 +154,18 @@ namespace BasesDeDatos
                                 TemaProgramacion tema3 = new TemaProgramacion();
                                 tema3.llamarQuestionario3();
                                 break;
+                            case 4:
+                                TemaProgramacion tema4 = new TemaProgramacion();
+                                tema4.llamarQuestionario4();
+                                break;
+                            case 5:
+                                TemaProgramacion tema5 = new TemaProgramacion();
+                                tema5.llamarQuestionario5();
+                                break;
+                            case 6:
+                                TemaProgramacion tema6 = new TemaProgramacion();
+                                tema6.llamarQuestionario6();
+                                break;
                             default:
                                 break;
                         }

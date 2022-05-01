@@ -112,16 +112,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario4()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Un método o función... // No existe limitación a los parámetros de entrada.",
+                "Los parámetros de entrada no son siempre opcionales. // Falso",
+                "Los métodos y funciones no pueden llamarse a si mismos en su código. // Falso",
+                "Existe una limitación en el número de comandos return que una función puede usar. // Falso",
+                "El uso de métodos y funciones hace que el programa sea más fácil de leer e interpretar. // Verdadero",
+                "Indicar la visibilidad de los métodos y funciones es algo opcional. // Verdadero",
+                "Un método llamado ej1 que tiene un parámetro de entrada de tipo float se le puede llamar? // Siempre y cuando le demos un valor al parámetro de entrada.",
+                "No hay limitación al número de llamadas a una función en un programa. // Verdadero",
+                "Un método tipificado? // Debe retornar siempre un valor del tipo del método.",
+                "Decimos que un método está tipificado cuando al terminar devuelve algún valor del tipo declarado. // Verdadero"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -147,16 +147,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario5()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Cuando hacemos una captura de requisitos... // Debemos tratar de buscar el diseño más eficiente.",
+                "El análisis de requisitos // Consiste en la localización de las necesidades de nuestro proyecto.",
+                "Existen dos tipologías de errores que se pueden producir al programar. // Falso",
+                "Es mejor añadir parámetros siempre a usar valores fijos cuando programamos. // Verdadero",
+                "Una mala captura de requisitos puede suponer repetir trabajo. // Verdadero",
+                "La metodología de diseño de 4 reglas puede resumirse en... // Datos, inicialización, desarrollo y repetición.",
+                "Un análisis de requisitos siempre debería... // Cubrir al menos el 50% del tiempo de desarrollo o más.",
+                "Los errores tipo semánticos no permiten ejecutar nuestro programa. // Falso",
+                "Al realizar una captura de requisitos es conveniente que... // Creemos cuanto más documentación, mejor.",
+                "Una captura de requisitos la realizamos simplemente preguntándonos qué necesitamos y cómo vamos a conseguirlo. // Verdadero"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -182,16 +182,17 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario6()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"El tamaño de un array es fijo y no cambiará aunque borremos datos. // Verdadero",
+                "Que puedes decir de la siguiente línea de código: miArray[miArray.Lenght] = 5; Que la asignación dará error, ya que el índice indicado no existe.",
+                "Los arrays no son nativos de C#. Se necesita una librería como el System para poderlos usar. // Falso",
+                "Las estructuras tipo array son en realidad una tabla con una sola dimensión o fila. // Verdadero",
+                "Un array es una colección de datos de diversos tipos // Falso",
+                "Los arrays no pueden ser de tipo bool. // Falso",
+                "En las búsquedas es mejor usar la estructura For. // Falso",
+                "El tipo de datos String representa una cadena de caracteres. Es también una colección de datos. // Verdadero",
+                "Los arrays se declaran con la sintaxis... // TipoArray[] nombreArray;",
+                "Para asignar un valor dentro de un array necesitas... // El valor a asignar y un índice válido.",
+                "Para poder usar un array hay que definir su tamaño. // Verdadero"};
 
             for (int i = 0; i < tema.Length; i++)
             {
