@@ -146,6 +146,14 @@ namespace BasesDeDatos
                                 TemaProgramacion tema1 = new TemaProgramacion();
                                 tema1.llamarQuestionario1();
                                 break;
+                            case 2:
+                                TemaProgramacion tema2 = new TemaProgramacion();
+                                tema2.llamarQuestionario2();
+                                break;
+                            case 3:
+                                TemaProgramacion tema3 = new TemaProgramacion();
+                                tema3.llamarQuestionario3();
+                                break;
                             default:
                                 break;
                         }
@@ -216,7 +224,7 @@ namespace BasesDeDatos
                         }
                         break;
                     
-                    //Entornos de Desarrollo - por hacer
+                    //Entornos de Desarrollo - Completo
                     case 4:
                         //Entornos de desarrollos
                         Console.WriteLine("°--------------------------------------------------------------------°");

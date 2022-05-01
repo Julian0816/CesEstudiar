@@ -42,16 +42,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario2()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"If (puntos !=10) { MuertePlayer(); } // Si puntos es distinto de 10 ejecuta MuertePlayer().",
+                "La estructura Switch... // Es equivalente a una gran cantidad de ifs anidados con predicados de igualdad.",
+                "No podemos anidar más de tres instrucciones If. // Falso",
+                "No debe usarse la sentencia Switch si puede evitarse. // Falso",
+                "If (puntos >10) { DesbloqueaTrofeo(); } // Este código debloquea un trofeo si la variable puntos vale más que 10.",
+                "No es necesario usar el caso Default si no lo necesitamos al codificar un Swith. // Verdadero",
+                "La sentencia Switch es equivalente a anidar una sentencia de comparación if para cada caso. // Verdadero",
+                "Los ifs se representan en los diagramas de flujo UML con un rombo. // Verdadero",
+                "Los ifs consecutivos sin anidar se ejecutan unos detrás de otros. // Verdadero",
+                "Un if else if no pude concatenarse de nuevo con otro elseif. // Falso"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -77,16 +77,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario3()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"El predicado lógico de un While es el siguiente:<br/>(! Verdadero && varBool) vale... // Siempre Verdadero.",
+                "Un Do While siempre ejecuta su código al menos una vez. // Verdadero",
+                "Para usar un While necesitas? // asegurarte de que el código que cicla alguna vez niega la condición.",
+                "Un While repite ciclo cuando su condición (predicado lógico) es verdadero. // Verdadero",
+                "El predicado lógico de un For es el siguiente:<br/>(! Verdadero || varBool) vale... // Depende del valor de la variable varBool.",
+                "La estructura For? // necesita una inicialización, una condición de terminación, y un modo de incremento.",
+                "Un For repite ciclo cuando su condición (predicado lógico) es falso. // Falso",
+                "Un For termina siempre. Su cantidad de ciclos está limitado. // Falso",
+                "La estructura de control While es ciclica y siempre se ejecuta al menos una vez. // Falso",
+                "La estructura de control For es cíclica y no sabemos cuando terminará de ciclar. // Falso"};
 
             for (int i = 0; i < tema.Length; i++)
             {
