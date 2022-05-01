@@ -142,16 +142,21 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario4()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Git no está recomendado para proyectos grandes // Falso",
+                "Un patrón de diseño Visitor o Visitante permitirá al programador definir nuevas operaciones sin modificar las clases sobre una jerarquía. // Verdadero",
+                "Refactorizar no ayuda a que los programas tengan más calidad pero sí asegura que sean más robustos. // Falso",
+                "SOLID son las iniciales de estas expresiones: single responsibility // Verdadero",
+                "Hay que diseñar las clases para que los objetos tenga solamente una única responsabilidad. // Verdadero",
+                "Git es un SCV gratuito y de código abierto. // Verdadero",
+                "Según Liskov, si en un programa OO sustituimos un objeto por alguna superclase suya, el funcionamiento del programa debería ser idéntico. // Falso",
+                "Autoencapsular atributos es una buena práctica. Los atributos se definen como public y luego se encapsulan con getters y setters. // Falso",
+                "Extract method es una refactorización en la que se realiza una reducción lógica al código. // Verdadero",
+                "A la vez que se crea nuevo código se debería refactorizar y crear casos de prueba. // Verdadero",
+                "Al utilizar una variable autoexplicativa el código resulta más legible y sencillo. // Verdadero",
+                "Según SOLID es mejor crear muchas interfaces específicas separadas que una interfaz general amplia. // Verdadero",
+                "Un patrón de diseño Memento o Recuerdo permite trasladar un conjunto de objetos o sistema a un estado anterior. // Verdadero",
+                "Se recomienda evitar utilizar variables temporales para almacenar resultados intermedios de las operaciones. // Verdadero",
+                "Un método inline intenta ocultar la lógica del programa factorizando el código. // Falso"};
 
             for (int i = 0; i < tema.Length; i++)
             {

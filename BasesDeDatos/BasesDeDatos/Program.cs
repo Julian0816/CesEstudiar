@@ -244,6 +244,10 @@ namespace BasesDeDatos
                                 TemaEntornoDeDesarrollos tema3 = new TemaEntornoDeDesarrollos();
                                 tema3.llamarQuestionario3();
                                 break;
+                            case 4:
+                                TemaEntornoDeDesarrollos tema4 = new TemaEntornoDeDesarrollos();
+                                tema4.llamarQuestionario4();
+                                break;
                             default:
                                 break;
                         }
