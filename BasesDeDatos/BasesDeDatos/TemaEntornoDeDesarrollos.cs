@@ -222,16 +222,24 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario6()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Cuando se representa un caso de uso lo que se está representando es la funcionalidad del sistema. // Verdadero",
+                "La generalización y la especialización son posibles tanto en casos de uso como en actores. // Verdadero",
+                "Si tenemos un diagrama de estados y vemos en él un punto sólido, estamos ante el comienzo de una serie de estados. // Verdadero",
+                "Los diagramas de secuencia son asíncronos, es decir, no tienen en cuenta el tiempo. // Falso",
+                "Cuando existe un caso de uso y otro que representa una variante del mismo se representarán ambos mediante un extends. // Verdadero",
+                "Si por ejemplo dentro de un enunciado leo algo como ?generar informe?, casi con toda seguridad estoy ante un caso de uso. // Verdadero",
+                "Un mensaje asincrónico nunca permite que el método que originó la llamada siga su ejecución normal. // Falso",
+                "Imagina un caso de uso en el que se realicen dos o más tareas. Se podría modelar cada una de las tareas en un caso de uso aparte y un include a la tarea principal. // Falso",
+                "La recursividad en un diagrama de secuencia está permitida, es decir, un objeto puede enviarse un mensaje a sí mismo. // Verdadero",
+                "Hay una correlación directa entre un caso de uso y un diagrama de secuencia. // Verdadero",
+                "Aunque la información que aparece en un diagrama de colaboración es diferente a la de un diagrama de secuencias, en ambos se representa la variable tiempo. // Falso",
+                "Los diagramas de secuencia son modelos que pueden ser extraídos de los diagramas de clase y de los diagramas de casos de uso. // Verdadero",
+                "Hay una regla fundamental que es intentar incluir en un diagrama de casos de uso cuantos más aspectos de diseño mejor. De esa más definido estará el caso de uso. // Falso",
+                "Los estados se representan con un recuadro no redondeado. // Falso",
+                "Por experiencia, cuando en un enunciado leo un verbo, generalmente se puede identificar en el mismo un caso de uso. // Verdadero",
+                "Dentro de un diagrama de secuencia puede incluirse un diagrama de interacción. // Verdadero",
+                "En un diagrama de colaboración se puede ver tanto el orden en el que se ejecutarán las acciones en un sistema como los objetos responsables de las mismas. // Verdadero",
+                "En los casos de uso cuando se representa el sistema habrá que englobar dentro del mismo tanto los casos de uso como los actores que intervienen en el mismo. // Falso",};
 
             for (int i = 0; i < tema.Length; i++)
             {
