@@ -288,16 +288,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario9()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {" public List<string> listaStr = new List<string>(); listaStr.add('manzana'); listaStr.add('uva'); listaStr.add('pera'); listaStr.add('manzana');listaStr.RemoveAt(2);//¿Que valor se elimina? // El valor de pera.",
+                "Las listas y los arrays sólo se diferencian en que el tamaño de listas es indeterminado. // False",
+                " public List<string> listaStr = new List<string>(); listaStr.add('manzana'); listaStr.add('uva'); listaStr.add('pera'); listaStr.add('manzana');listaStr.RemoveAt(5); //¿Que valor se elimina? // La función RemoveAt da error en tiempo de ejecución por salirse del rango de la lista.",
+                "Las listas no son elementos nativos de los lenguajes de programación. // True",
+                "Si quito el using collection puedo seguir usando las listas sólo en el entorno de desarrollo Unity. // False",
+                " public List<string> listaStr = new List<string>(); listaStr.add('manzana'); listaStr.add('uva'); listaStr.add('pera'); int auxInd = -78; auxInd = listaStr.IndexOf('uva'); //¿Que valor tiene auxInd ahora? // 1",
+                "Las colas y pilas no son más que versiones con diferente comportamiento de las listas. // True",
+                "public List<string> listaStr = new List<string>(); listaStr.add('manzana'); listaStr.add('uva'); listaStr.add('pera');listaStr.add('manzana'); listaStr.RemoveAt(3); //¿Que valor se elimina? // La segunda aparición de manzana.",
+                "public List<string> listaStr = new List<string>(); listaStr.add('manzana'); listaStr.add('uva'); listaStr.add('pera'); listaStr.add('manzana'); listaStr.Remove('manzana'); //¿Que valor se elimina? // El indice de 0.",
+                "El atributo para acceder al tamaño de una lista se denomina Lenght. // False"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -322,6 +322,78 @@ namespace BasesDeDatos
             }
         }
         public void llamarQuestionario10()
+        {
+            string[] tema = {"El DropDown es un tipo de Widget de categoría de Interacción. // True",
+                "Para escalar el tamaño del Canvas, usaremos su componente Canvas Scaler // True",
+                "¿Porqué no podrías asignar el siguiente código a un botón? Public Void Test(GameObjet f){<br/>if (f.transform.x > 100){<br/> Destroy(this);<br/>}<br/>} //End Test // Porque tiene como parámetro de entrada un tipo no permitido.",
+                "Para vincular código a un botón el método a asociar no puede tener más de dos parámetreos de entrada. // False",
+                "La lista de sucesos de un widget de interacción está limitada. // False",
+                "¿Porqué no podrías asignar el siguiente código a un botón? Public Int Test(float f){<br/>if (f > 100){<br/> Destroy(this);<br/>}<br/>} //End Test // Porque el método está tipificado, sólo los métodos vacíos pueden asignarse a eventos de widgets.",
+                "Los checkBoxes por defecto pueden funcionar como RadioButtons simplemente marcando a cierto uno de sus atributos. // False",
+                "El Canvas no puede pintarse si eliminamos el componente auxiliar EventSystem // False",
+                "El atributo del Canvas Sort Order indica la prioridad de pintado en pantalla de este frente a otros Canvas. // True",
+                "Cada Canvas en escena necesita un componente auxiliar asociado EventSystem // False",
+                "¿Porqué no podrías asignar el siguiente código a un botón? Public Void Test(float f){<br/>if (f > 100){<br/> Destroy(this);<br/>}<br/>} //End Test // El código es correcto y sí que podría asignarse a un botón o otro tipo de widget.",
+                "El OutLine pone un borde a los textos y no es un objeto, sino un componente. // True"};
+
+            for (int i = 0; i < tema.Length; i++)
+            {
+                Random r = new Random();
+                int index = r.Next(tema.Length);
+                Console.WriteLine($"Pregunta: {tema[index]}");
+                break;
+            }
+            Console.WriteLine("-------------");
+            Console.WriteLine("got it? (y/n)");
+            string respuesta = Console.ReadLine();
+            Console.WriteLine("-------------");
+
+
+            if (respuesta == "y")
+            {
+                llamarQuestionario10();
+            }
+            else
+            {
+                Console.WriteLine("Vuelve a revisar los apuntes");
+            }
+        }
+        public void llamarQuestionario11()
+        {
+            string[] tema = {"Los Structs son una agrupación de variables similares a una clase, sin llegar a serlo. // True",
+                "¿Para que sirve la siguiente instrucción? MiSt = new MiStruct(); // Para crear una instancia del Struct MiStruct con el constructor por defecto.",
+                "¿Cual de las siguientes afirmaciones es correcta cuando hablamos de las ventajas de usar un tipo enumerado? // Simplifica el uso de herramientas Switch Case con valores constantes.",
+                "El tipo Enum no se puede usar sin importar la librería System. // False",
+                "Los constructores de un struct están limitados a un máximo de 10. // False",
+                "Podemos crear un Struct sin definir ningún constructor. // True",
+                "¿Para que sirve la siguiente instrucción? DiaAño DiaComienzo = (DiaAño) 48; // Para obtener el valor constante almacenado en el Enum DiaAño con índice 48.",
+                "Un constructor en un struct debe inicialiar todas las variables del mismo. // True",
+                "El tipo Enum puede compararse con una cadena de caracteres String en un predicado. // FAlse",
+                "El tipo Enum puede compararse con una colección de cadenas de caracteres String constantes. // True"};
+
+            for (int i = 0; i < tema.Length; i++)
+            {
+                Random r = new Random();
+                int index = r.Next(tema.Length);
+                Console.WriteLine($"Pregunta: {tema[index]}");
+                break;
+            }
+            Console.WriteLine("-------------");
+            Console.WriteLine("got it? (y/n)");
+            string respuesta = Console.ReadLine();
+            Console.WriteLine("-------------");
+
+
+            if (respuesta == "y")
+            {
+                llamarQuestionario11();
+            }
+            else
+            {
+                Console.WriteLine("Vuelve a revisar los apuntes");
+            }
+        }
+        public void llamarQuestionario12()
         {
             string[] tema = {"",
                 "",
@@ -349,7 +421,147 @@ namespace BasesDeDatos
 
             if (respuesta == "y")
             {
-                llamarQuestionario10();
+                llamarQuestionario12();
+            }
+            else
+            {
+                Console.WriteLine("Vuelve a revisar los apuntes");
+            }
+        }
+        public void llamarQuestionario13()
+        {
+            string[] tema = {"",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""};
+
+            for (int i = 0; i < tema.Length; i++)
+            {
+                Random r = new Random();
+                int index = r.Next(tema.Length);
+                Console.WriteLine($"Pregunta: {tema[index]}");
+                break;
+            }
+            Console.WriteLine("-------------");
+            Console.WriteLine("got it? (y/n)");
+            string respuesta = Console.ReadLine();
+            Console.WriteLine("-------------");
+
+
+            if (respuesta == "y")
+            {
+                llamarQuestionario13();
+            }
+            else
+            {
+                Console.WriteLine("Vuelve a revisar los apuntes");
+            }
+        }
+        public void llamarQuestionario14()
+        {
+            string[] tema = {"",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""};
+
+            for (int i = 0; i < tema.Length; i++)
+            {
+                Random r = new Random();
+                int index = r.Next(tema.Length);
+                Console.WriteLine($"Pregunta: {tema[index]}");
+                break;
+            }
+            Console.WriteLine("-------------");
+            Console.WriteLine("got it? (y/n)");
+            string respuesta = Console.ReadLine();
+            Console.WriteLine("-------------");
+
+
+            if (respuesta == "y")
+            {
+                llamarQuestionario14();
+            }
+            else
+            {
+                Console.WriteLine("Vuelve a revisar los apuntes");
+            }
+        }
+        public void llamarQuestionario15()
+        {
+            string[] tema = {"",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""};
+
+            for (int i = 0; i < tema.Length; i++)
+            {
+                Random r = new Random();
+                int index = r.Next(tema.Length);
+                Console.WriteLine($"Pregunta: {tema[index]}");
+                break;
+            }
+            Console.WriteLine("-------------");
+            Console.WriteLine("got it? (y/n)");
+            string respuesta = Console.ReadLine();
+            Console.WriteLine("-------------");
+
+
+            if (respuesta == "y")
+            {
+                llamarQuestionario15();
+            }
+            else
+            {
+                Console.WriteLine("Vuelve a revisar los apuntes");
+            }
+        }
+        public void llamarQuestionario16()
+        {
+            string[] tema = {"",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""};
+
+            for (int i = 0; i < tema.Length; i++)
+            {
+                Random r = new Random();
+                int index = r.Next(tema.Length);
+                Console.WriteLine($"Pregunta: {tema[index]}");
+                break;
+            }
+            Console.WriteLine("-------------");
+            Console.WriteLine("got it? (y/n)");
+            string respuesta = Console.ReadLine();
+            Console.WriteLine("-------------");
+
+
+            if (respuesta == "y")
+            {
+                llamarQuestionario16();
             }
             else
             {
