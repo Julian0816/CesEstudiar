@@ -218,16 +218,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario7()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"La instancia única nos asegura que no habrá más de una copia de una clase por área de trabajo. // Verdadero",
+                "¿La instancia única requiere de usar qué método específico del sistema? // Awake",
+                "La instancia única nos asegura que no habrá más de dos copias de una clase por área de trabajo. // Falso",
+                "Podemos crear tantas copias de un objeto como queramos. // Verdadero",
+                "Un objeto sólo puede tener un componente asociado.  // Falso",
+                "El this es un puntero al objeto que lleva el script que lo ejecuta. // Verdadero",
+                "La herencia permite que la clase hija herede métodos y atributos de la clase padre. // Verdadero",
+                "¿Qué puedes decir de la siguiente línea de código: GameObject miGO = GameObject.Find(??);? // Es correcta y buscará un objeto sin nombre, por lo que siempre devolverá null.",
+                "Los punteros no borran los objetos a los que apuntaban cuando pasan a apuntar a null. // Verdadero",
+                "Con la palabra reservada extends... // Podemos aplicar polimorfismo a nuestras clases."};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -253,16 +253,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario8()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Las matrices deben ser siempre rectangulares. // False",
+                "¿Cual de los siguientes pares de valores enteros no es válido como índices de una matriz? // El par (0,-1)",
+                "public String[,] matrizStr = new String[3,3]; MatrizStr[1,1] = 'manzana'; MatrizStr[0,0] = 'uva'; MatrizStr[2,2] = 'pera'; //¿Que valor tiene la posición [0,1]? // (Cadena vacía).",
+                "No siempre es necesario conocer todos los índices para acceder a un elemento de una matriz. // Felse",
+                "String[,] miMatriz; miMatriz[0,0] = ?10?; //¿Que representa este código? // El código es incorrecto, la matriz no tiene tamaño.",
+                "Las matrices no son más que arrays de dos dimensiones. // True",
+                "Las matrices o tableros son elementos nativos de los lenguajes de programación, no necesitan importar librerías. // True",
+                "int[,] miMatriz = new Int[3,3]; //¿Que representa este código? // Declaro una matriz de números enteros de dimensiones 3 por 3.",
+                "int[,] miMatriz = new float[3,3]; //¿Que representa este código? // El código es incorrecto, incompatibilidad de tipos.",
+                "Las matrices creadas como arrays de arryas... // Deben inicializarse cada columna de manera individual."};
 
             for (int i = 0; i < tema.Length; i++)
             {
