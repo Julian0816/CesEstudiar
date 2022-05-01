@@ -395,16 +395,21 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario12()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Los métodos tipo Listener se usan principalmente para: movimiento, temporizadores y eventos condicionados. // True",
+                "Un prefab es una plantilla de objeto que sirve de molde para crear copias. // True",
+                "this.gameObject.transform.position.x = 5.2f; // Esta línea de código es incorrecta porque las coordenadas individuales son variables de solo lectura.",
+                "Las coordenadas de los tipos vectores son siempre de tipo float. // True",
+                "Destruir un objeto no destruye a sus hijos // False",
+                "Cuando queremos esperar a que ocurra algo podemos poner una estructura de control while dentro de un evento Update // False",
+                "Instantiate(GameObject, Vector3, Quaternion); // Es una sobrecarga de la función Instantiate.",
+                "Los únicos métodos Listener que existen son el Update y FixedUpdate. // False",
+                "El Vector3.Down es el // (0,-1,0)",
+                "Si ejecuto el siguiente fragmento de código, el Objeto1 se destruye. GameObject ob1 = Objeto1; GameObject ob2 = Objeto2; obj1 = obj2; // False",
+                "Time.TimeScale = 0.75f; // Esta línea de código decrementa el paso del tiempo por un cuarto de lo normal.",
+                "Vector3 ejeY = Vector3.up;<br/>float velAngular = -90 * Time.deltaTime;<br/>this.transform.Rotate(ejeY * velAngular, Space.Self); // Este código hace rotar al objeto en el sentido contrario a las agujas del reloj.",
+                "Resources.Load sólo carga paths que empiezan en una carpeta llamada Resources. // True",
+                "Para crear un prefab vacío debemos de... // Seleccionando Asset > Create Prefab."
+            };
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -430,16 +435,18 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario13()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"¿Que es el KeyCode? // Un tipo enumerado que guarda los Ids de las teclas de nuestro teclado.",
+                "No todos los eventos de la clase Input están tipificados como booleanos. // False",
+                "La matriz de colisiones indica que layers (capas de objetos) se ignoran o no cuando se producen colisiones. // True",
+                "Las funciones de rayo sólo existen en la clase Physics. // False",
+                "Basta con que uno de los dos objetos que colisionan estén en modo isTrigger para que no se produzca una colisión. // True",
+                "Para que se produzcan colisiones (no triggers) es necesario que al menos uno de los objetos tenga un componente RigidBody // False",
+                "La función RayCastAll está tipificada y devuelve algo de tipo array. // True",
+                "Basta con que uno de los dos objetos que colisionan estén en modo isTrigger para que se produzca una colisión. // False",
+                "El evento GetKeyUp // Se ejecuta una sóla vez en el último frame de la pulsación.",
+                "El evento OnCollisionEnter // Se ejecuta una sóla vez en el primer frame de la colisión.",
+                "GetAxis(Horizontal) devuelve un valor entre 0 y 1. // True",
+                "El parámetro IsKinematic // Pertenece al componente RigidBody."};
 
             for (int i = 0; i < tema.Length; i++)
             {
