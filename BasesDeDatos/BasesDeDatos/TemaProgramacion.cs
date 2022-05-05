@@ -472,16 +472,18 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario14()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"Los métodos StarCorrutine son nativos de C# y no precisan de importación de librerias para funcionar. // True",
+                "Solo el StarCorrutine permite llamar a hilos con parámetros de entrada. // True",
+                "El método invoke no tiene porque llevar un valor de retardo en su llamada, es un parámetro opcional. // True",
+                "Las corrutinas creadas con métodos invoke deben llamar a métodos tipificados Ienumerator. // Falso",
+                "No existe limitación salvo desbordamiento de memoria, a cuantas corrutinas podemos lanzar a la vez. // True",
+                "¿Porqué no podrías asignar el siguiente código a un botón? Public Void Test(GameObjet f){<br/>if (f.transform.x > 100){<br/> Destroy(this);<br/>}<br/>} //End Test // Porque tiene como parámetro de entrada un tipo no permitido.",
+                "¿Da error la siguiente lína de código? Y en caso afirmativo, ¿Porqué? - Invoke(esperaJugador); // Es erroneo porque el parámetro de entrada debe estar en formato string, le faltan las comillas.",
+                "Si no indicas tiempo de repetición en un InvokeRepeating, por defecto te repite la corrutina trascurrido un frame. // False",
+                "¿Que hace esta línea de código? InvokeRepeating(?LanzaBomba?, 10f, 1); // Cada segundo que pasa, lanza un nuevo hilo con el método LanzaBomba, que espera 10 segundos para empezar su ejecución.",
+                "StopAllCorrutines() detiene todo tipo de corrutinas que se hayan iniciado. // False",
+                "Se recomienda usar el InvokeReapeting solamente en métodos Update // False",
+                "Las corrutinas cambian el hilo de ejecución de nuestro programa. // Falso"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -507,16 +509,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario15()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"No hay limitación al número de hijos que una etiqueta o nodo puede tener en un archivo XML. // True",
+                "La cabecera de un archivo XML no es necesaria, ya que el encoding que recibe es el de por defecto. // False",
+                "Con GetNodes(?NombreNodo?) obtenemos una lista de nodos de nombre NombreNodo. // Falso",
+                "InnerText da error si no apuntamos a un nodo final. // True",
+                "Con SelectSingleNode(?NombreNodo?) obtenemos el primer nodo que encontramos en la jerarquía de nombre NombreNodo. // True",
+                "La escritura y lectura de archivos no requiere de librerías adicionales. // False",
+                "Todo lo que leemos de archivos externos viene en formato String. // True",
+                "El resources.Load necesita siempre hacer uso del proceso de Casting. // True",
+                "El formato XML pertenece a 3WSchools. // False",
+                "El try & Catch sin guardar la excepción no requiere importar librerías adicionales. // True"};
 
             for (int i = 0; i < tema.Length; i++)
             {
@@ -542,16 +544,16 @@ namespace BasesDeDatos
         }
         public void llamarQuestionario16()
         {
-            string[] tema = {"",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""};
+            string[] tema = {"La proyección ortográfica ignora la profundidad de los objetos que renderiza. // True",
+                "El atributo Depth indica la prioridad de pintado de una cámara cuando hay más de una en escena. // True",
+                "El atributo FieldOfView es sólo para cámaras con proyección de perspectiva. // True",
+                "La clase Rect simplemente define un rectángulo, en pixeles. // True",
+                "El atributo AllowHDR permite usar el algoritmo de pintado High Def Change. // True",
+                "Las cámaras pintan siempre los objetos que tienen más cerca primero. // False",
+                "Usando varias capas o layers podemos distribuir el rendimiento de pintado de nuestro proyecto. // True",
+                "No se pueden combinar cámaras con diferentes perspectivas en una misma escena. // False",
+                "El atributo Culling Mask pemite definir una máscara de capas (layers) que la cámara pintará. // True",
+                "La definición 9:16 no es un tipo de aspecto de pantalla. // False"};
 
             for (int i = 0; i < tema.Length; i++)
             {

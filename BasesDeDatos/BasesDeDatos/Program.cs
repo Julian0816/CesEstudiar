@@ -23,7 +23,7 @@ namespace BasesDeDatos
                 Console.WriteLine("°         5. Sistemsa Informaticos      °");
                 Console.WriteLine("°         6. FOL                        °");
                 Console.WriteLine("°---------------------------------------°");
-                Console.WriteLine("Que modulo quieres estudiar");
+                Console.WriteLine("Ingresa el numero del modulo quieres estudiar");
                 opc =Convert.ToInt32(Console.ReadLine());
 
                 switch (opc)
@@ -116,7 +116,7 @@ namespace BasesDeDatos
                         }
                         break;
                     
-                    //Programacion - Incompleto
+                    //Programacion - Completo
                     case 2:
                         //Programacion
                         Console.WriteLine("°------------------------------------------------------------------------°");
@@ -193,6 +193,18 @@ namespace BasesDeDatos
                             case 13:
                                 TemaProgramacion tema13 = new TemaProgramacion();
                                 tema13.llamarQuestionario13();
+                                break;
+                            case 14:
+                                TemaProgramacion tema14 = new TemaProgramacion();
+                                tema14.llamarQuestionario14();
+                                break;
+                            case 15:
+                                TemaProgramacion tema15 = new TemaProgramacion();
+                                tema15.llamarQuestionario15();
+                                break;
+                            case 16:
+                                TemaProgramacion tema16 = new TemaProgramacion();
+                                tema16.llamarQuestionario16();
                                 break;
                             default:
                                 break;
