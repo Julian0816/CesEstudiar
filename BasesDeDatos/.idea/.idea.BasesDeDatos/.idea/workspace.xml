@@ -6,12 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d43a6185-a6c1-47d5-a3a1-16c6525aeaa0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasesDeDatos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasesDeDatos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasesDeDatos/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasesDeDatos/TemaProgramacion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/TemaProgramacion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/bin/Debug/netcoreapp3.1/BasesDeDatos.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BasesDeDatos/obj/Debug/netcoreapp3.1/BasesDeDatos.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1650497706337" duration="12751000" />
       <workItem from="1650645063931" duration="23730000" />
       <workItem from="1650681240142" duration="7461000" />
-      <workItem from="1650906067954" duration="16212000" />
+      <workItem from="1650906067954" duration="17707000" />
+      <workItem from="1651820072330" duration="295000" />
     </task>
     <servers />
   </component>
